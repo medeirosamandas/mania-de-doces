@@ -1,0 +1,7 @@
+<section>
+  <div *ngFor="let prod of listaProdutos">
+    <img src="{{ prod.urlFoto }}" alt="{{ prod.descricao }}" />
+    {{ prod.descricao }}
+    {{ prod.titulo }}
+  </div>
+</section>
