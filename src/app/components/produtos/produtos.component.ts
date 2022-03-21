@@ -13,13 +13,23 @@ export class ProdutosComponent implements OnInit {
   ngOnInit(): void {
     this.listaProdutos = [
       {
+        titulo: 'Cestas',
+        descricao: 'Cestas Personalizadas',
+        urlFoto: 'assets/circulo.png',
+      },
+      {
         titulo: 'Páscoa',
         descricao: 'Ovos de páscoa',
         urlFoto: 'assets/circulo.png',
       },
       {
         titulo: 'Páscoa',
-        descricao: 'Ovos de páscoa',
+        descricao: 'Doces Personalizados para aniversário',
+        urlFoto: 'assets/circulo.png',
+      },
+      {
+        titulo: 'Páscoa',
+        descricao: 'Lembranças personalizadas em datas comemorativas',
         urlFoto: 'assets/circulo.png',
       },
     ];

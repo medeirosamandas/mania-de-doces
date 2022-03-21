@@ -1,5 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  background-color: #fadee3;
+  background-color: #ffdfcf;
+}
+
+header,
+body,
+div,
+h1,
+h2,
+img,
+p,
+section {
+  margin: 0;
+  padding: 0;
 }
