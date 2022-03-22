@@ -9,9 +9,14 @@ body,
 div,
 h1,
 h2,
+h3,
+a,
 img,
 p,
-section {
+section,
+footer,
+ul,
+li {
   margin: 0;
   padding: 0;
 }

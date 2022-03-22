@@ -1,0 +1,33 @@
+footer {
+  background-color: #a96b63;
+  background: url("../../../assets/fundo-header.png") #a96b63;
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fafafa;
+  padding: 2.5rem;
+  margin-top: 2rem;
+}
+.contato-dev {
+  text-align: center;
+  padding: 1rem;
+}
+
+.numero {
+  text-align: center;
+  font-size: 22px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  list-style-type: none;
+}
