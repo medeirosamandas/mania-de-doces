@@ -13,7 +13,7 @@ img {
   margin: 1rem 0.5rem;
   min-width: 28rem;
   min-height: 16rem;
-  width: auto;
+  max-width: 80vw;
   height: auto;
   border-radius: 100px;
   justify-content: space-evenly;

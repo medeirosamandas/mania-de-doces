@@ -153,6 +153,33 @@ export class CardapioPascoaComponent implements OnInit {
         urlFoto: 'assets/ovos-de-pascoa/15-kit-fabrica-de-coelhos.jpeg',
         recheio: null,
       },
+      {
+        id: 16,
+        titulo: 'Ovo de Colher com Docinhos',
+        descricao: 'Ovo de colher sabores tradicionais + 4 docinhos',
+        valor: 60,
+        peso: 400,
+        urlFoto: 'assets/ovos-de-pascoa/16-ovo-com-docinhos.jpeg',
+        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
+      },
+      {
+        id: 17,
+        titulo: 'Ovo de Colher com Docinhos',
+        descricao: 'Ovo de colher sabores especiais + 4 docinhos',
+        valor: 67,
+        peso: 400,
+        urlFoto: 'assets/ovos-de-pascoa/17-ovo-com-docinhos.jpeg',
+        recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
+      },
+      {
+        id: 18,
+        titulo: 'Ovo Plano',
+        descricao: 'Ovo Plano com muuuito sabor',
+        valor: 39,
+        peso: 380,
+        urlFoto: 'assets/ovos-de-pascoa/18-ovo-plano.jpeg',
+        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
+      },
     ];
   }
 }
