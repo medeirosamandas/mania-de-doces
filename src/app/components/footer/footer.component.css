@@ -8,6 +8,7 @@ footer {
   color: #fafafa;
   padding: 2.5rem;
   margin-top: 2rem;
+  text-align: center;
 }
 .contato-dev {
   text-align: center;
@@ -27,7 +28,15 @@ footer a {
 ul {
   display: flex;
   justify-content: space-evenly;
+  margin: 2rem;
 }
 li {
   list-style-type: none;
+}
+
+li a img {
+  width: 30px;
+}
+#whatsapp {
+  width: 50px;
 }
