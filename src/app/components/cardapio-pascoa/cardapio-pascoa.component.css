@@ -20,6 +20,28 @@ img {
   align-items: center;
 }
 
+.card-lembrancinha {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #f4b4ba;
+  outline: 2px white groove;
+  outline-offset: -10px;
+  padding: 2rem;
+  margin: 1rem 0.5rem;
+  min-width: 28rem;
+  min-height: 16rem;
+  max-width: 80vw;
+  height: auto;
+  border-radius: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-lembrancinha img {
+  width: 150px;
+}
+
 section {
   display: flex;
   flex-wrap: wrap;
@@ -38,4 +60,11 @@ h3,
 h4,
 p {
   margin-bottom: 1rem;
+}
+
+.preco {
+  font-size: larger;
+  background-color: #d87982;
+  border-radius: 10px;
+  padding: 0.5rem;
 }

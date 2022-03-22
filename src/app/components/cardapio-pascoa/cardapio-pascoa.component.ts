@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardapioPascoaComponent implements OnInit {
   listaProdutos: any;
+  listaLembrancinhas: any;
 
   constructor() {}
 
@@ -180,6 +181,16 @@ export class CardapioPascoaComponent implements OnInit {
         urlFoto: 'assets/ovos-de-pascoa/18-ovo-plano.jpeg',
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
       },
+    ];
+
+    this.listaLembrancinhas = [
+      'assets/ovos-de-pascoa/lembrancinha1.jpeg',
+      'assets/ovos-de-pascoa/lembrancinha2.jpeg',
+      'assets/ovos-de-pascoa/lembrancinha3.jpeg',
+      'assets/ovos-de-pascoa/lembrancinha4.jpeg',
+      'assets/ovos-de-pascoa/lembrancinha5.jpeg',
+      'assets/ovos-de-pascoa/lembrancinha6.jpeg',
+      'assets/ovos-de-pascoa/lembrancinha7.jpeg',
     ];
   }
 }
