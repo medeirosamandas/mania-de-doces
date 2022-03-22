@@ -10,9 +10,11 @@ img {
   outline: 2px white groove;
   outline-offset: -10px;
   padding: 2rem;
-  margin: 0.5rem;
-  width: 28rem;
-  height: 16rem;
+  margin: 1rem 0.5rem;
+  min-width: 28rem;
+  min-height: 16rem;
+  width: auto;
+  height: auto;
   border-radius: 100px;
   justify-content: space-evenly;
   align-items: center;

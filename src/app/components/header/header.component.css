@@ -10,6 +10,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 5rem;
+  flex-wrap: wrap;
 }
 
 #pascoa {
