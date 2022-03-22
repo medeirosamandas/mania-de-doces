@@ -1,0 +1,15 @@
+<section>
+  <div *ngFor="let prod of listaProdutos" class="card">
+    <img src="{{ prod.urlFoto }}" alt="{{ prod.descricao }}" />
+    <div>
+      <h3 class="title">{{ prod.titulo }}</h3>
+      <h4 class="title">{{ prod.descricao }}</h4>
+      <p *ngIf="prod.peso" class="title">Peso ≅ {{ prod.peso }}g</p>
+      <p *ngIf="prod.recheio">Sabores:</p>
+      <ul *ngFor="let recheio of prod.recheio">
+        <li>{{ recheio }}</li>
+      </ul>
+    </div>
+  </div>
+</section>
+.

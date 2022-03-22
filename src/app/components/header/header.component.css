@@ -9,8 +9,9 @@ header {
   background-image: url("../../../assets/fundo-header.png");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 5rem;
 }
 
-#brigadeiro {
-  height: 100px;
+#pascoa {
+  height: 200px;
 }

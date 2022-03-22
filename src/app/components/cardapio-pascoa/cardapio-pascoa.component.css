@@ -1,0 +1,39 @@
+img {
+  width: 200px;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+.card {
+  display: flex;
+  background-color: #f4b4ba;
+  outline: 2px white groove;
+  outline-offset: -10px;
+  padding: 2rem;
+  margin: 0.5rem;
+  width: 28rem;
+  height: 16rem;
+  border-radius: 100px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("../../../assets/ovos.png");
+  background-size: contain;
+}
+
+li {
+  list-style-type: none;
+}
+
+h3,
+h4,
+p {
+  margin-bottom: 1rem;
+}
