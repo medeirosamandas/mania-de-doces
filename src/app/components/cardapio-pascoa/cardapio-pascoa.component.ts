@@ -15,6 +15,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.listaProdutos = [
       {
         id: 1,
+        ativo: true,
         titulo: 'Duo de Ovos',
         descricao: 'Caixa com 2 ovos',
         valor: 30,
@@ -24,6 +25,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 2,
+        ativo: true,
         titulo: 'Trio de Ovos',
         descricao: 'Caixa com 2 ovos',
         valor: 45,
@@ -33,6 +35,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 3,
+        ativo: false,
         titulo: '4 Mini Ovos Tradicionais',
         descricao: 'Caixa com 4 mini ovos - sabores tradicionais',
         valor: 35,
@@ -42,6 +45,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 4,
+        ativo: false,
         titulo: '4 Mini Ovos Especiais',
         descricao: 'Caixa com 4 mini ovos - sabores especiais',
         valor: 38,
@@ -51,6 +55,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 5,
+        ativo: true,
         titulo: '2 Mini Ovos Tradicionais',
         descricao: 'Caixa com 2 mini ovos - sabores tradicionais',
         valor: 17,
@@ -61,6 +66,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 6,
+        ativo: true,
         titulo: '2 Mini Ovos Especiais',
         descricao: 'Caixa com 2 mini ovos - sabores especiais',
         valor: 19,
@@ -71,6 +77,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 7,
+        ativo: true,
         titulo: 'Mini Ovo Tradicional',
         descricao: 'Caixa com 1 mini ovo - sabores tradicionais',
         valor: 14,
@@ -81,6 +88,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 8,
+        ativo: true,
         titulo: 'Mini Ovo Especial',
         descricao: 'Caixa com 1 mini ovo - sabores especiais',
         valor: 17,
@@ -91,6 +99,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 9,
+        ativo: false,
         titulo: 'Ovo de Colher Tradicional',
         descricao: 'Caixa com 1 ovo - sabores tradicionais',
         valor: 30,
@@ -100,7 +109,8 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
       },
       {
-        id: 10,
+        id: 0,
+        ativo: true,
         titulo: 'Ovo de Colher Especial',
         descricao: 'Caixa com 1 ovo - sabores especiais',
         valor: 33,
@@ -110,7 +120,8 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
       },
       {
-        id: 11,
+        id: 1,
+        ativo: true,
         titulo: 'Ovo Fechado Trufado',
         descricao: 'Ovo fechado trufado tamanho P',
         valor: 30,
@@ -119,7 +130,8 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
       },
       {
-        id: 12,
+        id: 2,
+        ativo: true,
         titulo: 'Ovo Fechado Trufado',
         descricao: 'Ovo fechado trufado tamanho M',
         valor: 45,
@@ -128,7 +140,8 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
       },
       {
-        id: 13,
+        id: 3,
+        ativo: true,
         titulo: 'Ovo Fechado Sem Recheio',
         descricao: 'Ovo fechado sem recheio e com surpresa dentro. Tamanho M',
         valor: 35,
@@ -137,7 +150,8 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: null,
       },
       {
-        id: 14,
+        id: 4,
+        ativo: true,
         titulo: 'Kit Infantil - Caixa com Alça',
         descricao: 'Ovo trufado. Brinde jogo da memória e brinde surpresa',
         valor: 42,
@@ -146,7 +160,8 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
       },
       {
-        id: 15,
+        id: 5,
+        ativo: true,
         titulo: 'Kit Infantil - Fábrica de Coelho',
         descricao: 'Um lindo kit confeiteiro',
         valor: 38,
@@ -155,7 +170,8 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: null,
       },
       {
-        id: 16,
+        id: 6,
+        ativo: true,
         titulo: 'Ovo de Colher com Docinhos',
         descricao: 'Ovo de colher sabores tradicionais + 4 docinhos',
         valor: 60,
@@ -164,7 +180,8 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
       },
       {
-        id: 17,
+        id: 7,
+        ativo: true,
         titulo: 'Ovo de Colher com Docinhos',
         descricao: 'Ovo de colher sabores especiais + 4 docinhos',
         valor: 67,
@@ -173,7 +190,8 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
       },
       {
-        id: 18,
+        id: 8,
+        ativo: true,
         titulo: 'Ovo Plano',
         descricao: 'Ovo Plano com muuuito sabor',
         valor: 39,

@@ -3,12 +3,17 @@
     <img src="{{ prod.urlFoto }}" alt="{{ prod.descricao }}" />
     <div>
       <h3 class="title">{{ prod.titulo }}</h3>
-      <h4 class="title">{{ prod.descricao }}</h4>
-      <h5 class="preco">{{ prod.valor | currency: "BRL" }}</h5>
-      <p *ngIf="prod.peso" class="title">Peso ≅ {{ prod.peso }}g</p>
-      <p *ngIf="prod.recheio">Sabores:</p>
+      <div class="esgotado" *ngIf="!prod.ativo">Esgotado</div>
+      <h4 *ngIf="prod.ativo" class="title">{{ prod.descricao }}</h4>
+      <h5 *ngIf="prod.ativo" class="preco">
+        {{ prod.valor | currency: "BRL" }}
+      </h5>
+      <p *ngIf="prod.peso && prod.ativo" class="title">
+        Peso ≅ {{ prod.peso }}g
+      </p>
+      <p *ngIf="prod.recheio && prod.ativo">Sabores:</p>
       <ul *ngFor="let recheio of prod.recheio">
-        <li>{{ recheio }}</li>
+        <li *ngIf="prod.ativo">{{ recheio }}</li>
       </ul>
     </div>
   </div>
