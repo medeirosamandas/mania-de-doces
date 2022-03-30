@@ -11,14 +11,13 @@ img {
   outline-offset: -10px;
   padding: 2rem;
   margin: 1rem 0.5rem;
-  min-width: 28rem;
+  min-width: 50vw;
   min-height: 16rem;
   max-width: 80vw;
   height: auto;
   border-radius: 100px;
   justify-content: space-evenly;
   align-items: center;
-  position: relative;
 }
 
 .card-lembrancinha {
@@ -69,4 +68,7 @@ p {
   background-color: #d87982;
   border-radius: 10px;
   padding: 0.5rem;
+}
+
+.esgotado {
 }

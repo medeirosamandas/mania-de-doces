@@ -33,26 +33,7 @@ export class CardapioPascoaComponent implements OnInit {
         urlFoto: 'assets/ovos-de-pascoa/02-trio-de-ovos.jpeg',
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca'],
       },
-      {
-        id: 3,
-        ativo: false,
-        titulo: '4 Mini Ovos Tradicionais',
-        descricao: 'Caixa com 4 mini ovos - sabores tradicionais',
-        valor: 35,
-        peso: 240,
-        urlFoto: 'assets/ovos-de-pascoa/03-caixa-mini-ovos-tradicionais.jpeg',
-        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
-      },
-      {
-        id: 4,
-        ativo: false,
-        titulo: '4 Mini Ovos Especiais',
-        descricao: 'Caixa com 4 mini ovos - sabores especiais',
-        valor: 38,
-        peso: 240,
-        urlFoto: 'assets/ovos-de-pascoa/04-caixa-mini-ovos-especiais.jpeg',
-        recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
-      },
+
       {
         id: 5,
         ativo: true,
@@ -97,17 +78,7 @@ export class CardapioPascoaComponent implements OnInit {
           'assets/ovos-de-pascoa/07-08-caixa-com-um-mini-ovo-tradicional-especial.jpeg',
         recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
       },
-      {
-        id: 9,
-        ativo: false,
-        titulo: 'Ovo de Colher Tradicional',
-        descricao: 'Caixa com 1 ovo - sabores tradicionais',
-        valor: 30,
-        peso: 180,
-        urlFoto:
-          'assets/ovos-de-pascoa/09-10-caixa-com-um-ovo-tradicional-especial.jpeg',
-        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
-      },
+
       {
         id: 0,
         ativo: true,
@@ -198,6 +169,37 @@ export class CardapioPascoaComponent implements OnInit {
         peso: 380,
         urlFoto: 'assets/ovos-de-pascoa/18-ovo-plano.jpeg',
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
+      },
+      {
+        id: 9,
+        ativo: false,
+        titulo: 'Ovo de Colher Tradicional',
+        descricao: 'Caixa com 1 ovo - sabores tradicionais',
+        valor: 30,
+        peso: 180,
+        urlFoto:
+          'assets/ovos-de-pascoa/09-10-caixa-com-um-ovo-tradicional-especial.jpeg',
+        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
+      },
+      {
+        id: 3,
+        ativo: false,
+        titulo: '4 Mini Ovos Tradicionais',
+        descricao: 'Caixa com 4 mini ovos - sabores tradicionais',
+        valor: 35,
+        peso: 240,
+        urlFoto: 'assets/ovos-de-pascoa/03-caixa-mini-ovos-tradicionais.jpeg',
+        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
+      },
+      {
+        id: 4,
+        ativo: false,
+        titulo: '4 Mini Ovos Especiais',
+        descricao: 'Caixa com 4 mini ovos - sabores especiais',
+        valor: 38,
+        peso: 240,
+        urlFoto: 'assets/ovos-de-pascoa/04-caixa-mini-ovos-especiais.jpeg',
+        recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
       },
     ];
 
