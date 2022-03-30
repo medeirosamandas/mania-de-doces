@@ -28,8 +28,8 @@ img {
   outline: 2px white groove;
   outline-offset: -10px;
   padding: 2rem;
-  margin: 1rem 0.5rem;
-  min-width: 28rem;
+  margin: 1rem 0;
+  min-width: 25rem;
   min-height: 16rem;
   max-width: 80vw;
   height: auto;
@@ -39,7 +39,9 @@ img {
 }
 
 .card-lembrancinha img {
-  width: 150px;
+  width: 30vw;
+  max-width: 200px;
+  margin-left: 0.1rem;
 }
 
 section {
@@ -71,4 +73,10 @@ p {
 }
 
 .esgotado {
+}
+
+@media only screen and (max-width: 500px) {
+  img {
+    width: 50%;
+  }
 }
