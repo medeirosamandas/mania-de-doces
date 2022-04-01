@@ -80,17 +80,6 @@ export class CardapioPascoaComponent implements OnInit {
       },
 
       {
-        id: 0,
-        ativo: true,
-        titulo: 'Ovo de Colher Especial',
-        descricao: 'Caixa com 1 ovo - sabores especiais',
-        valor: 33,
-        peso: 180,
-        urlFoto:
-          'assets/ovos-de-pascoa/09-10-caixa-com-um-ovo-tradicional-especial.jpeg',
-        recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
-      },
-      {
         id: 1,
         ativo: true,
         titulo: 'Ovo Fechado Trufado',
@@ -199,6 +188,17 @@ export class CardapioPascoaComponent implements OnInit {
         valor: 38,
         peso: 240,
         urlFoto: 'assets/ovos-de-pascoa/04-caixa-mini-ovos-especiais.jpeg',
+        recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
+      },
+      {
+        id: 0,
+        ativo: false,
+        titulo: 'Ovo de Colher Especial',
+        descricao: 'Caixa com 1 ovo - sabores especiais',
+        valor: 33,
+        peso: 180,
+        urlFoto:
+          'assets/ovos-de-pascoa/09-10-caixa-com-um-ovo-tradicional-especial.jpeg',
         recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
       },
     ];
