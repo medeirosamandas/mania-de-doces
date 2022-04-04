@@ -23,39 +23,7 @@ export class CardapioPascoaComponent implements OnInit {
         urlFoto: 'assets/ovos-de-pascoa/01-duo-de-ovos.jpeg',
         recheio: ['Ninho com Morango', 'Brigadeiro com Nutella'],
       },
-      {
-        id: 2,
-        ativo: true,
-        titulo: 'Trio de Ovos',
-        descricao: 'Caixa com 2 ovos',
-        valor: 45,
-        peso: 450,
-        urlFoto: 'assets/ovos-de-pascoa/02-trio-de-ovos.jpeg',
-        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca'],
-      },
 
-      {
-        id: 5,
-        ativo: true,
-        titulo: '2 Mini Ovos Tradicionais',
-        descricao: 'Caixa com 2 mini ovos - sabores tradicionais',
-        valor: 17,
-        peso: 120,
-        urlFoto:
-          'assets/ovos-de-pascoa/05-caixa-com-2-mini-ovos-tradicionais.jpeg',
-        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
-      },
-      {
-        id: 6,
-        ativo: true,
-        titulo: '2 Mini Ovos Especiais',
-        descricao: 'Caixa com 2 mini ovos - sabores especiais',
-        valor: 19,
-        peso: 120,
-        urlFoto:
-          'assets/ovos-de-pascoa/06-caixa-com-2-mini-ovos-especiais.jpeg',
-        recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
-      },
       {
         id: 7,
         ativo: true,
@@ -199,6 +167,38 @@ export class CardapioPascoaComponent implements OnInit {
         peso: 180,
         urlFoto:
           'assets/ovos-de-pascoa/09-10-caixa-com-um-ovo-tradicional-especial.jpeg',
+        recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
+      },
+      {
+        id: 2,
+        ativo: false,
+        titulo: 'Trio de Ovos',
+        descricao: 'Caixa com 2 ovos',
+        valor: 45,
+        peso: 450,
+        urlFoto: 'assets/ovos-de-pascoa/02-trio-de-ovos.jpeg',
+        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca'],
+      },
+      {
+        id: 5,
+        ativo: false,
+        titulo: '2 Mini Ovos Tradicionais',
+        descricao: 'Caixa com 2 mini ovos - sabores tradicionais',
+        valor: 17,
+        peso: 120,
+        urlFoto:
+          'assets/ovos-de-pascoa/05-caixa-com-2-mini-ovos-tradicionais.jpeg',
+        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
+      },
+      {
+        id: 6,
+        ativo: false,
+        titulo: '2 Mini Ovos Especiais',
+        descricao: 'Caixa com 2 mini ovos - sabores especiais',
+        valor: 19,
+        peso: 120,
+        urlFoto:
+          'assets/ovos-de-pascoa/06-caixa-com-2-mini-ovos-especiais.jpeg',
         recheio: ['Ferreiro Rocher', 'Rafaello', 'Kinder Bueno', 'Kit Kat'],
       },
     ];
