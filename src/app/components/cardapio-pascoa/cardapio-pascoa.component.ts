@@ -173,7 +173,7 @@ export class CardapioPascoaComponent implements OnInit {
         id: 2,
         ativo: false,
         titulo: 'Trio de Ovos',
-        descricao: 'Caixa com 2 ovos',
+        descricao: 'Caixa com 3 ovos',
         valor: 45,
         peso: 450,
         urlFoto: 'assets/ovos-de-pascoa/02-trio-de-ovos.jpeg',
