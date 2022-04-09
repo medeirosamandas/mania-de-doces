@@ -87,16 +87,7 @@ export class CardapioPascoaComponent implements OnInit {
         urlFoto: 'assets/ovos-de-pascoa/14-caixa-com-alca.jpeg',
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
       },
-      {
-        id: 5,
-        ativo: true,
-        titulo: 'Kit Infantil - Fábrica de Coelho',
-        descricao: 'Um lindo kit confeiteiro',
-        valor: 38,
-        peso: null,
-        urlFoto: 'assets/ovos-de-pascoa/15-kit-fabrica-de-coelhos.jpeg',
-        recheio: null,
-      },
+
       {
         id: 6,
         ativo: true,
@@ -126,6 +117,16 @@ export class CardapioPascoaComponent implements OnInit {
         peso: 380,
         urlFoto: 'assets/ovos-de-pascoa/18-ovo-plano.jpeg',
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
+      },
+      {
+        id: 5,
+        ativo: false,
+        titulo: 'Kit Infantil - Fábrica de Coelho',
+        descricao: 'Um lindo kit confeiteiro',
+        valor: 38,
+        peso: null,
+        urlFoto: 'assets/ovos-de-pascoa/15-kit-fabrica-de-coelhos.jpeg',
+        recheio: null,
       },
       {
         id: 9,
