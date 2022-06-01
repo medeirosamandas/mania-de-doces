@@ -6,13 +6,13 @@
 
 <div class="observacao">
   <h4>
-    Todos os produtos vem com sacola com uma placa bentô de chocolate
+    Todos os produtos vem em uma sacola com uma placa bentô de chocolate
   </h4>
   <p>Opções de docinhos: brigadeiro, beijinho, paçoca</p>
 
 </div>
     <div *ngFor="let prod of diaDosNamorados" class="card">
-      <ngb-carousel>
+      <ngb-carousel class="carrossel">
         <ng-template *ngFor="let foto of prod.urlFoto" ngbSlide>
           <div class="picsum-img-wrapper">
             <img [src]="foto" alt="Doces">

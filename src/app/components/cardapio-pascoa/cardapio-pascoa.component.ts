@@ -306,7 +306,7 @@ export class CardapioPascoaComponent implements OnInit {
           {
             id: 9,
             ativo: true, 
-            titulo: "Caixa com 4 doces um coração", 
+            titulo: "Caixa com 4 doces e um coração", 
             valor: 15, 
             urlFoto: 
             [
