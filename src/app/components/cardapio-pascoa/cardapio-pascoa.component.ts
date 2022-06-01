@@ -6,13 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cardapio-pascoa.component.css'],
 })
 export class CardapioPascoaComponent implements OnInit {
-  listaProdutos: any;
+  ovosDePascoa: any;
   listaLembrancinhas: any;
+  diaDosNamorados: any;
 
-  constructor() {}
+  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  
 
   ngOnInit(): void {
-    this.listaProdutos = [
+    this.ovosDePascoa = [
       {
         id: 1,
         ativo: false,
@@ -213,5 +215,129 @@ export class CardapioPascoaComponent implements OnInit {
       'assets/ovos-de-pascoa/lembrancinha6.jpeg',
       'assets/ovos-de-pascoa/lembrancinha7.jpeg',
     ];
+
+    this.diaDosNamorados = [
+      {
+        id: 1,
+        ativo: true, 
+        titulo: "Caixa com 6 doces decorados", 
+        valor: 15, 
+        urlFoto: 
+        [
+          'assets/dia-dos-namorados/01.jpeg', 
+          'assets/dia-dos-namorados/02.jpeg'
+        ]
+      },         {
+        id: 2.1,
+        ativo: true, 
+        titulo: "Caixa com 8 doces decorados + 2 dadinhos", 
+        valor: 22, 
+        urlFoto: 
+        [
+          'assets/dia-dos-namorados/07.jpeg', 
+        ]        },  {
+        id: 2,
+        ativo: true, 
+        titulo: "Caixa com 9 doces decorados", 
+        valor: 20, 
+        urlFoto: 
+        [
+          'assets/dia-dos-namorados/19.jpeg', 
+        ]        }, 
+                {
+        id: 3,
+        ativo: true, 
+        titulo: "Caixa com 10 doces decorados", 
+        valor: 22, 
+        urlFoto: 
+        [
+          'assets/dia-dos-namorados/04.jpeg', 
+          'assets/dia-dos-namorados/05.jpeg', 
+          'assets/dia-dos-namorados/06.jpeg'
+        ]      },         {
+        id: 4,
+        ativo: true, 
+        titulo: "Caixa com 12 doces decorados", 
+        valor: 25, 
+        urlFoto: 
+        [
+          'assets/dia-dos-namorados/03.jpeg', 
+        ]      },         {
+        id: 5,
+        ativo: true, 
+        titulo: "Caixa com 5 doces e um coração", 
+        valor: 18, 
+        urlFoto: 
+        [
+          'assets/dia-dos-namorados/08.jpeg', 
+        ]        },         {
+        id: 6,
+        ativo: true, 
+        titulo: "Caixa com dois ursinhos e 3 corações recheados ", 
+        valor: 18, 
+        urlFoto: 
+        [
+          'assets/dia-dos-namorados/09.jpeg', 
+        ]         }, 
+        
+        {
+          id: 7,
+          ativo: true, 
+          titulo: "Caixa da sedução com 9 doces + jogo do amor", 
+          valor: 28, 
+          urlFoto: 
+          [
+            'assets/dia-dos-namorados/10.jpeg', 
+            'assets/dia-dos-namorados/11.jpeg'
+          ]
+        },
+
+        {
+          id: 8,
+          ativo: true, 
+          titulo: "Caixa com 8 doces e uma garrafa de cerveja Budweiser", 
+          valor: 22, 
+          urlFoto: 
+          [
+            'assets/dia-dos-namorados/12.jpeg', 
+          ]         },
+
+          {
+            id: 9,
+            ativo: true, 
+            titulo: "Caixa com 4 doces um coração", 
+            valor: 15, 
+            urlFoto: 
+            [
+              'assets/dia-dos-namorados/13.jpeg', 
+            ]         },
+
+            {
+              id: 10,
+              ativo: true, 
+              titulo: "Caixa dos Desejos", 
+              opcao1: "Fondue no coração de chocolate",
+              opcao2: "Docinhos + 1 garrafa de cerveja",
+              valor: 39.90, 
+              urlFoto: 
+              [
+                'assets/dia-dos-namorados/14.jpeg', 
+                'assets/dia-dos-namorados/15.jpeg', 
+                'assets/dia-dos-namorados/16.jpeg', 
+              ]         },
+
+              {
+                id: 11,
+                ativo: true, 
+                titulo: "Foundue Especial", 
+
+                valor: 69.90, 
+                urlFoto: 
+                [
+                  'assets/dia-dos-namorados/17.jpeg', 
+                  'assets/dia-dos-namorados/18.jpeg', 
+                ]         }
+      
+      ]
   }
 }

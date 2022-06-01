@@ -10,6 +10,7 @@ import { CardapioPascoaComponent } from './components/cardapio-pascoa/cardapio-p
 
 import ptBr from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
+import { NgbCarousel, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 registerLocaleData(ptBr);
 
@@ -21,8 +22,8 @@ registerLocaleData(ptBr);
     ProdutosComponent,
     CardapioPascoaComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [{ provide: LOCALE_ID, useValue: 'pt' }],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent, CardapioPascoaComponent],
 })
 export class AppModule {}

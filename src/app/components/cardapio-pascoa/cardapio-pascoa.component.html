@@ -1,4 +1,38 @@
 <section>
+
+  
+
+  
+
+    <!--DIA DOS NAMORADOS-->
+<!---->
+
+<div class="observacao">
+  <h4>
+    Todos os produtos vem com sacola com uma placa bentô de chocolate
+  </h4>
+  <p>Opções de docinhos: brigadeiro, beijinho, paçoca</p>
+
+</div>
+    <div *ngFor="let prod of diaDosNamorados" class="card">
+      <img src="{{ prod.urlFoto[0] }}" alt="{{ prod.titulo }}" />
+
+      <div>
+        <h3 class="title">{{ prod.titulo }}</h3>
+        <p *ngIf="prod.opcao1 not null">Opção 1: {{prod.opcao1}}</p>
+        <p *ngIf="prod.opcao1 not null">Opção 2: {{prod.opcao2}}</p>
+        <h5 *ngIf="prod.ativo" class="preco">
+          {{ prod.valor | currency: "BRL" }}
+        </h5>
+
+
+      </div>
+
+    </div>
+
+
+  <!--PÁSCOA-->
+  <!--
   <div *ngFor="let prod of listaProdutos" class="card">
     <img src="{{ prod.urlFoto }}" alt="{{ prod.descricao }}" />
     <div>
@@ -17,7 +51,6 @@
       </ul>
     </div>
   </div>
-  <!--
 
   <div class="card-lembrancinha">
     <h3>Lembrancinhas</h3>
