@@ -29,7 +29,7 @@
         <h5 *ngIf="prod.ativo" class="preco">
           {{ prod.valor | currency: "BRL" }}
         </h5>
-
+        <h5 *ngIf="!prod.ativo" class="esgotado">Esgotado</h5>
 
       </div>
 

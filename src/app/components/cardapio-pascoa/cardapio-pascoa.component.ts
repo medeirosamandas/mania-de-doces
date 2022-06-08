@@ -218,17 +218,7 @@ export class CardapioPascoaComponent implements OnInit {
     ];
 
     this.diaDosNamorados = [
-      {
-        id: 1,
-        ativo: true, 
-        titulo: "Caixa com 6 doces decorados", 
-        valor: 15, 
-        urlFoto: 
-        [
-          'assets/dia-dos-namorados/01.jpeg', 
-          'assets/dia-dos-namorados/02.jpeg'
-        ]
-      },         {
+         {
         id: 2.1,
         ativo: true, 
         titulo: "Caixa com 8 doces decorados + 2 dadinhos", 
@@ -337,7 +327,17 @@ export class CardapioPascoaComponent implements OnInit {
                 [
                   'assets/dia-dos-namorados/17.jpeg', 
                   'assets/dia-dos-namorados/18.jpeg', 
-                ]         }
+                ]         },       {
+                  id: 1,
+                  ativo: false, 
+                  titulo: "Caixa com 6 doces decorados", 
+                  valor: 15, 
+                  urlFoto: 
+                  [
+                    'assets/dia-dos-namorados/01.jpeg', 
+                    'assets/dia-dos-namorados/02.jpeg'
+                  ]
+                },
       
       ]
   }
