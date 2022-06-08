@@ -75,6 +75,7 @@ p {
   background-color: #d87982;
   border-radius: 10px;
   padding: 0.5rem;
+  width: fit-content;
 }
 
 .observacao{
