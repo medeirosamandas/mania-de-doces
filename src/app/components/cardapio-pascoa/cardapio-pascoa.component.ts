@@ -253,23 +253,7 @@ export class CardapioPascoaComponent implements OnInit {
         urlFoto: 
         [
           'assets/dia-dos-namorados/03.jpeg', 
-        ]      },         {
-        id: 5,
-        ativo: true, 
-        titulo: "Caixa com 5 doces e um coração", 
-        valor: 18, 
-        urlFoto: 
-        [
-          'assets/dia-dos-namorados/08.jpeg', 
-        ]        },         {
-        id: 6,
-        ativo: true, 
-        titulo: "Caixa com dois ursinhos e 3 corações recheados ", 
-        valor: 18, 
-        urlFoto: 
-        [
-          'assets/dia-dos-namorados/09.jpeg', 
-        ]         }, 
+        ]      },                
         
         {
           id: 7,
@@ -293,15 +277,7 @@ export class CardapioPascoaComponent implements OnInit {
             'assets/dia-dos-namorados/12.jpeg', 
           ]         },
 
-          {
-            id: 9,
-            ativo: true, 
-            titulo: "Caixa com 4 doces e um coração", 
-            valor: 15, 
-            urlFoto: 
-            [
-              'assets/dia-dos-namorados/13.jpeg', 
-            ]         },
+         
 
             {
               id: 10,
@@ -337,7 +313,33 @@ export class CardapioPascoaComponent implements OnInit {
                     'assets/dia-dos-namorados/01.jpeg', 
                     'assets/dia-dos-namorados/02.jpeg'
                   ]
-                },
+                },  {
+                  id: 5,
+                  ativo: false, 
+                  titulo: "Caixa com 5 doces e um coração", 
+                  valor: 18, 
+                  urlFoto: 
+                  [
+                    'assets/dia-dos-namorados/08.jpeg', 
+                  ]        }, 
+                  {
+                    id: 9,
+                    ativo: false, 
+                    titulo: "Caixa com 4 doces e um coração", 
+                    valor: 15, 
+                    urlFoto: 
+                    [
+                      'assets/dia-dos-namorados/13.jpeg', 
+                    ]         },
+                    {
+                      id: 6,
+                      ativo: false, 
+                      titulo: "Caixa com dois ursinhos e 3 corações recheados ", 
+                      valor: 18, 
+                      urlFoto: 
+                      [
+                        'assets/dia-dos-namorados/09.jpeg', 
+                      ]         }, 
       
       ]
   }
