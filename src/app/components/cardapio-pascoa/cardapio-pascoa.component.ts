@@ -220,7 +220,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.diaDosNamorados = [
          {
         id: 2.1,
-        ativo: true, 
+        ativo: false, 
         titulo: "Caixa com 8 doces decorados + 2 dadinhos", 
         valor: 22, 
         urlFoto: 
@@ -228,7 +228,7 @@ export class CardapioPascoaComponent implements OnInit {
           'assets/dia-dos-namorados/07.jpeg', 
         ]        },  {
         id: 2,
-        ativo: true, 
+        ativo: false, 
         titulo: "Caixa com 9 doces decorados", 
         valor: 20, 
         urlFoto: 
@@ -237,7 +237,7 @@ export class CardapioPascoaComponent implements OnInit {
         ]        }, 
                 {
         id: 3,
-        ativo: true, 
+        ativo: false, 
         titulo: "Caixa com 10 doces decorados", 
         valor: 22, 
         urlFoto: 
@@ -247,7 +247,7 @@ export class CardapioPascoaComponent implements OnInit {
           'assets/dia-dos-namorados/06.jpeg'
         ]      },         {
         id: 4,
-        ativo: true, 
+        ativo: false, 
         titulo: "Caixa com 12 doces decorados", 
         valor: 25, 
         urlFoto: 
@@ -257,7 +257,7 @@ export class CardapioPascoaComponent implements OnInit {
         
         {
           id: 7,
-          ativo: true, 
+          ativo: false, 
           titulo: "Caixa da sedução com 9 doces + jogo do amor", 
           valor: 28, 
           urlFoto: 
@@ -269,7 +269,7 @@ export class CardapioPascoaComponent implements OnInit {
 
         {
           id: 8,
-          ativo: true, 
+          ativo: false, 
           titulo: "Caixa com 8 doces e uma garrafa de cerveja Budweiser", 
           valor: 22, 
           urlFoto: 
@@ -281,7 +281,7 @@ export class CardapioPascoaComponent implements OnInit {
 
             {
               id: 10,
-              ativo: true, 
+              ativo: false, 
               titulo: "Caixa dos Desejos", 
               opcao1: "Fondue no coração de chocolate",
               opcao2: "Docinhos + 1 garrafa de cerveja",
@@ -295,7 +295,7 @@ export class CardapioPascoaComponent implements OnInit {
 
               {
                 id: 11,
-                ativo: true, 
+                ativo: false, 
                 titulo: "Foundue Especial", 
 
                 valor: 69.90, 
