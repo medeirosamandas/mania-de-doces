@@ -1,16 +1,15 @@
 img {
   width: 80%;
   border-radius: 30px;
-  
 }
 
 .card {
   display: flex;
-  background-color: #da344d;
+  background-color: #f7a4ad;
   color: white;
   outline: 2px white groove;
   outline-offset: -10px;
-  padding: 2rem;
+  padding: 3rem;
   margin: 1rem 0.5rem;
   height: auto;
   border-radius: 100px;
@@ -23,7 +22,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: #f4b4ba;
+  background-color: #f7a4ad;
   outline: 2px white groove;
   outline-offset: -10px;
   padding: 2rem;
@@ -34,18 +33,19 @@ img {
   justify-content: space-evenly;
   align-items: center;
 }
-.card h3{
+.card h3 {
   margin-top: 1rem;
 }
 
-.carrossel{
-justify-content: center;
-margin: auto;
+.carrossel {
+  justify-content: center;
+  margin: auto;
 }
 
 .card-lembrancinha img {
-  width: 35%;
-  max-width: 200px;
+  width: 90%;
+  max-width: 400px;
+  margin: 1rem;
 }
 
 section {
@@ -69,6 +69,10 @@ p {
   margin-bottom: 1rem;
 }
 
+p {
+  margin-top: 1rem;
+}
+
 .preco,
 .esgotado {
   font-size: larger;
@@ -77,18 +81,40 @@ p {
   padding: 0.5rem;
   width: fit-content;
   margin: auto;
+  margin: 1rem;
 }
 
-.observacao{
+.observacao {
   width: 100%;
   color: red;
   background-color: #fae0e4;
   padding: 1rem;
 }
 
-
 @media only screen and (max-width: 800px) {
   .card {
     width: 100%;
   }
+}
+
+.minhaclasse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h6 {
+  background-color: #d87982;
+  width: 100%;
+  font-size: 3rem;
+  padding: 0.5rem;
+  color: white;
+}
+
+h4 {
+  background-color: #d87982;
+  padding: 0.8rem;
+}
+
+li {
 }
