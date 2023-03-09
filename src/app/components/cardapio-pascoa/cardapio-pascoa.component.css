@@ -85,9 +85,11 @@ p {
 
 .observacao {
   width: 100%;
-  color: red;
-  background-color: #fae0e4;
+  color: white;
+  background-color: #f7a4ad;
   padding: 1rem;
+  font-size: large;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 800px) {
