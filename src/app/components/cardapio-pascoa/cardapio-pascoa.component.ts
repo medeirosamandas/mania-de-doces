@@ -16,28 +16,6 @@ export class CardapioPascoaComponent implements OnInit {
   ngOnInit(): void {
     this.ovosDePascoa = [
       {
-        id: 1,
-        ativo: false,
-        titulo: 'Quarteto de Mini Ovos Especiais',
-        descricao: 'Caixa com 2 ovos',
-        valor: 40,
-        peso: 250,
-        urlFoto: 'assets/ovos-de-pascoa/01.jpeg',
-        recheio: ['Folhado com morango', 'Pudim', 'Casadinho', 'Ferrero'],
-      },
-
-      {
-        id: 2,
-        ativo: false,
-        titulo: 'Quarteto de Mini Ovos Tradicionais',
-        descricao: 'Caixa com 2 ovos',
-        valor: 38,
-        peso: 250,
-        urlFoto: 'assets/ovos-de-pascoa/02.jpeg',
-        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
-      },
-
-      {
         id: 3,
         ativo: true,
         titulo: 'Trio de Ovos',
@@ -134,6 +112,27 @@ export class CardapioPascoaComponent implements OnInit {
         peso: 500,
         urlFoto: 'assets/ovos-de-pascoa/11.jpeg',
         recheio: ['Brigadeiro', 'Cocadinha', 'Paçoca', 'Ninho', 'Maracujá'],
+      },
+      {
+        id: 1,
+        ativo: false,
+        titulo: 'Quarteto de Mini Ovos Especiais',
+        descricao: 'Caixa com 2 ovos',
+        valor: 40,
+        peso: 250,
+        urlFoto: 'assets/ovos-de-pascoa/01.jpeg',
+        recheio: ['Folhado com morango', 'Pudim', 'Casadinho', 'Ferrero'],
+      },
+
+      {
+        id: 2,
+        ativo: false,
+        titulo: 'Quarteto de Mini Ovos Tradicionais',
+        descricao: 'Caixa com 2 ovos',
+        valor: 38,
+        peso: 250,
+        urlFoto: 'assets/ovos-de-pascoa/02.jpeg',
+        recheio: ['Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Nutella'],
       },
     ];
 
