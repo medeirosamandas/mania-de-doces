@@ -83,6 +83,9 @@ p {
   margin: auto;
   margin: 1rem;
 }
+.esgotado {
+  margin: 2rem auto 0;
+}
 
 .observacao {
   width: 100%;
