@@ -15,6 +15,7 @@ img {
   border-radius: 100px;
   justify-content: center;
   align-items: center;
+  max-width: 600px;
 }
 
 .card-lembrancinha {
