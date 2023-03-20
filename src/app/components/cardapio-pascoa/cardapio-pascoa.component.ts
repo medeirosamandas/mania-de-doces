@@ -17,7 +17,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovosDePascoa = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Quarteto de Mini Ovos Especiais',
         descricao: 'Caixa com 2 ovos',
         valor: 40,
@@ -28,7 +28,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Quarteto de Mini Ovos Tradicionais',
         descricao: 'Caixa com 2 ovos',
         valor: 38,
