@@ -53,27 +53,6 @@ export class CardapioPascoaComponent implements OnInit {
       },
 
       {
-        id: 7,
-        ativo: true,
-        titulo: 'Ovo de Colher Super Especial com 4 Docinhos',
-        descricao: 'Caixa com 2 ovos',
-        valor: 80,
-        peso: 400,
-        urlFoto: 'assets/ovos-de-pascoa/07.jpeg',
-        recheio: null,
-      },
-      {
-        id: 8,
-        ativo: true,
-        titulo: 'Ovo de Colher Super Especial',
-        descricao: 'Caixa com 2 ovos',
-        valor: 95,
-        peso: 700,
-        urlFoto: 'assets/ovos-de-pascoa/08.jpeg',
-        recheio: null,
-      },
-
-      {
         id: 10,
         ativo: true,
         titulo: 'Ovo Fechado Trufado',
@@ -133,6 +112,26 @@ export class CardapioPascoaComponent implements OnInit {
         peso: 430,
         urlFoto: 'assets/ovos-de-pascoa/03.jpeg',
         recheio: ['Brigadeiro', 'Beijinho', 'Paçoca'],
+      },
+      {
+        id: 7,
+        ativo: false,
+        titulo: 'Ovo de Colher Super Especial com 4 Docinhos',
+        descricao: 'Caixa com 2 ovos',
+        valor: 80,
+        peso: 400,
+        urlFoto: 'assets/ovos-de-pascoa/07.jpeg',
+        recheio: null,
+      },
+      {
+        id: 8,
+        ativo: false,
+        titulo: 'Ovo de Colher Super Especial',
+        descricao: 'Caixa com 2 ovos',
+        valor: 95,
+        peso: 700,
+        urlFoto: 'assets/ovos-de-pascoa/08.jpeg',
+        recheio: null,
       },
     ];
 
