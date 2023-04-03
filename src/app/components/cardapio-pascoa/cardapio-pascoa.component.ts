@@ -57,16 +57,6 @@ export class CardapioPascoaComponent implements OnInit {
         ativo: true,
         titulo: 'Ovo Fechado Trufado',
         descricao: 'Caixa com 2 ovos',
-        valor: 48,
-        peso: 400,
-        urlFoto: 'assets/ovos-de-pascoa/10.jpeg',
-        recheio: ['Brigadeiro', 'Cocadinha', 'Paçoca', 'Ninho', 'Maracujá'],
-      },
-      {
-        id: 10,
-        ativo: true,
-        titulo: 'Ovo Fechado Trufado',
-        descricao: 'Caixa com 2 ovos',
         valor: 58,
         peso: 500,
         urlFoto: 'assets/ovos-de-pascoa/11.jpeg',
@@ -133,32 +123,19 @@ export class CardapioPascoaComponent implements OnInit {
         urlFoto: 'assets/ovos-de-pascoa/08.jpeg',
         recheio: null,
       },
+      {
+        id: 10,
+        ativo: false,
+        titulo: 'Ovo Fechado Trufado',
+        descricao: 'Caixa com 2 ovos',
+        valor: 48,
+        peso: 400,
+        urlFoto: 'assets/ovos-de-pascoa/10.jpeg',
+        recheio: ['Brigadeiro', 'Cocadinha', 'Paçoca', 'Ninho', 'Maracujá'],
+      },
     ];
 
     this.ovosInfantis = [
-      {
-        id: 1,
-        ativo: true,
-        titulo:
-          'Casca chocolate ao leite e chocolate branco, com surpresa e bombons dentro',
-        descricao: 'Caixa com 2 ovos',
-        valor: 40,
-        peso: 250,
-        urlFoto: 'assets/ovos-de-pascoa/infantil-01.jpeg',
-        recheio: null,
-      },
-
-      {
-        id: 2,
-        ativo: true,
-        titulo:
-          'Casca chocolate ao leite e chocolate branco, com surpresa e bombons dentro',
-        descricao: 'Caixa com 2 ovos',
-        valor: 45,
-        peso: 300,
-        urlFoto: 'assets/ovos-de-pascoa/infantil-01.jpeg',
-        recheio: null,
-      },
       {
         id: 3,
         ativo: true,
@@ -189,16 +166,7 @@ export class CardapioPascoaComponent implements OnInit {
         urlFoto: 'assets/ovos-de-pascoa/infantil-05.jpeg',
         recheio: null,
       },
-      {
-        id: 6,
-        ativo: true,
-        titulo: 'Caixa com Alça, com guloseimas e surpresa',
-        descricao: 'Caixa com 2 ovos',
-        valor: 40,
-        peso: 250,
-        urlFoto: 'assets/ovos-de-pascoa/infantil-06.jpeg',
-        recheio: null,
-      },
+
       {
         id: 7,
         ativo: true,
@@ -207,6 +175,39 @@ export class CardapioPascoaComponent implements OnInit {
         valor: 42,
         peso: null,
         urlFoto: 'assets/ovos-de-pascoa/infantil-07.jpeg',
+        recheio: null,
+      },
+      {
+        id: 1,
+        ativo: false,
+        titulo:
+          'Casca chocolate ao leite e chocolate branco, com surpresa e bombons dentro',
+        descricao: 'Caixa com 2 ovos',
+        valor: 40,
+        peso: 250,
+        urlFoto: 'assets/ovos-de-pascoa/infantil-01.jpeg',
+        recheio: null,
+      },
+
+      {
+        id: 2,
+        ativo: false,
+        titulo:
+          'Casca chocolate ao leite e chocolate branco, com surpresa e bombons dentro',
+        descricao: 'Caixa com 2 ovos',
+        valor: 45,
+        peso: 300,
+        urlFoto: 'assets/ovos-de-pascoa/infantil-01.jpeg',
+        recheio: null,
+      },
+      {
+        id: 6,
+        ativo: false,
+        titulo: 'Caixa com Alça, com guloseimas e surpresa',
+        descricao: 'Caixa com 2 ovos',
+        valor: 40,
+        peso: 250,
+        urlFoto: 'assets/ovos-de-pascoa/infantil-06.jpeg',
         recheio: null,
       },
     ];
