@@ -54,7 +54,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: url("../../../assets/coracoes.png");
+  /*background: url("../../../assets/coracoes.png");*/
   background-size: contain;
   width: 100%;
 }
