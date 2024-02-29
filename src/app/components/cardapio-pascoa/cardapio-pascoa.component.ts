@@ -190,7 +190,7 @@ export class CardapioPascoaComponent implements OnInit {
         descricao: 'Sabores Tradicionais',
         valor: 70,
         peso: '600',
-        urlFoto: 'assets/ovos2024/ovosFechados.jpeg',
+        urlFoto: 'assets/ovos2024/ovosFechados2.jpeg',
         recheio: ['Cocadinha', 'Brigadeiro', 'Paçoca', 'Maracujá'],
       },
       {
@@ -210,7 +210,7 @@ export class CardapioPascoaComponent implements OnInit {
         descricao: 'Sabores Especiais',
         valor: 80,
         peso: '600',
-        urlFoto: 'assets/ovos2024/ovosFechados.jpeg',
+        urlFoto: 'assets/ovos2024/ovosFechados2.jpeg',
         recheio: ['Pistache', 'Ninho com Nutella'],
       },
     ];
