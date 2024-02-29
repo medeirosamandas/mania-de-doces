@@ -42,8 +42,7 @@ img {
   justify-content: center;
   margin: auto;
 }
-
-.card-lembrancinha img {
+.lembrancinha {
   width: 90%;
   max-width: 400px;
   margin: 1rem;
@@ -121,7 +120,11 @@ h6 {
 
 h4 {
   background-color: #d87982;
+  border-radius: 5px;
+  text-transform: uppercase;
   padding: 0.8rem;
+  width: fit-content;
+  display: inline;
 }
 
 li {
