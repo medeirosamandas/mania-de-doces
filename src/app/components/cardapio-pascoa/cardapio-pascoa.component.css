@@ -109,6 +109,10 @@ p {
   justify-content: center;
   align-items: center;
 }
+.minhaclasse p,
+.minhaclasse h5 {
+  margin-top: 0;
+}
 
 h6 {
   background-color: #d87982;
