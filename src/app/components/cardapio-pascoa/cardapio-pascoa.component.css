@@ -98,6 +98,7 @@ p {
   font-size: large;
   font-weight: bold;
   margin-bottom: 5px;
+  text-align: center;
 }
 .observacao p {
   color: white;
