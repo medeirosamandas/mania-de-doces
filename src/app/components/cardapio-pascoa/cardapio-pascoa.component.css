@@ -84,7 +84,7 @@ p {
   width: fit-content;
   margin: auto;
   margin: 1rem;
-  background-color: #f7a4ad;
+  background-color: #785f4a;
 }
 .esgotado {
   margin: 2rem auto 0;
@@ -93,7 +93,7 @@ p {
 .observacao {
   width: 100%;
   color: white!;
-  background-color: #f7a4ad;
+  background-color: #785f4a;
   padding: 1rem;
   font-size: large;
   font-weight: bold;
@@ -119,7 +119,7 @@ p {
 }
 
 h6 {
-  background-color: #d87982;
+  background-color: #5b4330;
   width: 100%;
   font-size: 2.5rem;
   padding: 0.5rem;
@@ -127,7 +127,7 @@ h6 {
 }
 
 h4 {
-  background-color: #d87982;
+  background-color: #5b4330;
   border-radius: 5px;
   text-transform: uppercase;
   padding: 0.8rem;
