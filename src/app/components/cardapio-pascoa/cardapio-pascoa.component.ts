@@ -278,7 +278,11 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: null,
       },
     ];
-    this.listaLembrancinhas = ['assets/ovos2024/lembrancinhas.jpeg'];
+    this.listaLembrancinhas = [
+      'assets/ovos2024/lembrancinhas.jpeg',
+      'assets/ovos2024/lembrancinhas2.jpeg',
+      'assets/ovos2024/lembrancinhas3.jpeg',
+    ];
 
     this.diaDosNamorados = [
       {
