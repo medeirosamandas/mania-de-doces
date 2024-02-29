@@ -112,16 +112,6 @@ export class CardapioPascoaComponent implements OnInit {
 
     this.ovoDeColher = [
       {
-        id: 1,
-        ativo: true,
-        titulo: 'Ovo de Colher',
-        descricao: 'Sabores Especiais',
-        valor: 40,
-        peso: '180',
-        urlFoto: 'assets/ovos2024/ovoColher1.jpeg',
-        recheio: ['Ninho com Nutella', 'Ferrero', 'Folhado de Morangos'],
-      },
-      {
         id: 2,
         ativo: true,
         titulo: 'Ovo de Colher',
@@ -215,23 +205,14 @@ export class CardapioPascoaComponent implements OnInit {
         urlFoto: 'assets/ovos2024/ovoBrinde.jpeg',
         recheio: null,
       },
-      {
-        id: 3,
-        ativo: true,
-        titulo: 'Ovo Fechado com brinde surpresa e guloseimas',
-        descricao: '',
-        valor: 30,
-        peso: '200',
-        urlFoto: 'assets/ovos2024/ovoBrinde.jpeg',
-        recheio: null,
-      },
+
       {
         id: 4,
         ativo: true,
         titulo: 'Kit Confeiteiro',
         descricao: '',
         valor: 42,
-        peso: 'x',
+        peso: null,
         urlFoto: 'assets/ovos2024/kitconfeiteiro.jpeg',
         recheio: null,
       },
