@@ -7,7 +7,7 @@ img {
   display: flex;
   background-color: #c2dea2;
   color: #392620;
-  outline: 2px white groove;
+  outline: 2px rgb(94, 38, 38) groove;
   outline-offset: -10px;
   padding: 3rem;
   margin: 1rem 0.5rem;
@@ -127,7 +127,7 @@ h6 {
 }
 
 h4 {
-  background-color: #d87982;
+  background-color: #f7a4ad;
   border-radius: 5px;
   text-transform: uppercase;
   padding: 0.8rem;
