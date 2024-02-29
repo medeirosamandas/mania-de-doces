@@ -5,7 +5,7 @@ img {
 
 .card {
   display: flex;
-  background-color: #a3cd82;
+  background-color: #84b564;
   color: #392620;
   outline: 2px white groove;
   outline-offset: -10px;
@@ -84,7 +84,7 @@ p {
   width: fit-content;
   margin: auto;
   margin: 1rem;
-  background-color: #2c5d0f;
+  background-color: #49792c;
 }
 .esgotado {
   margin: 2rem auto 0;
@@ -92,13 +92,16 @@ p {
 
 .observacao {
   width: 100%;
-  color: white;
+  color: white!;
   background-color: #2c5d0f;
   padding: 1rem;
   font-size: large;
   font-weight: bold;
+  margin-bottom: 5px;
 }
-
+.observacao p {
+  color: white;
+}
 @media only screen and (max-width: 800px) {
   .card {
     width: 100%;
@@ -116,7 +119,7 @@ p {
 }
 
 h6 {
-  background-color: #2c5d0f;
+  background-color: #49792c;
   width: 100%;
   font-size: 2.5rem;
   padding: 0.5rem;
@@ -124,7 +127,7 @@ h6 {
 }
 
 h4 {
-  background-color: #2c5d0f;
+  background-color: #49792c;
   border-radius: 5px;
   text-transform: uppercase;
   padding: 0.8rem;
