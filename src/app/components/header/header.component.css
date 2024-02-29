@@ -17,3 +17,12 @@ header {
 #pascoa {
   height: 200px;
 }
+h6 {
+  font-size: larger;
+  color: #2c5d0f;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: fit-content;
+  margin: auto;
+  margin: 1rem;
+}
