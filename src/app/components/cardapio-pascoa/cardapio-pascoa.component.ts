@@ -82,7 +82,7 @@ export class CardapioPascoaComponent implements OnInit {
           'Opção 1: Limão, maracujá, Ferrero e pistache',
           'Opção 2: Paçoca, Kinder, kit Kat e banoffe (casca caribe)',
           'Opção 3: Paçoca, brigadeiro, folhado de morango e ninho com Nutella',
-          'Opação 4: Pudim, pistache com morango, casadinho e  beijinho',
+          'Opção 4: Pudim, pistache com morango, casadinho e  beijinho',
         ],
       },
     ];
