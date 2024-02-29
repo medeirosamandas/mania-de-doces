@@ -214,12 +214,71 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: ['Pistache', 'Ninho com Nutella'],
       },
     ];
-    this.listaLembrancinhas = [
-      'assets/lembrancinhas/1.jpeg',
-      'assets/lembrancinhas/2.jpeg',
-      'assets/lembrancinhas/3.jpeg',
-      'assets/lembrancinhas/4.jpeg',
+
+    this.ovosInfantis = [
+      {
+        id: 1,
+        ativo: true,
+        titulo: 'Ovo com Copo Personalizado',
+        descricao: '',
+        valor: 35,
+        peso: '200',
+        urlFoto: 'assets/ovos2024/ovoCopo.jpeg',
+        recheio: null,
+      },
+      {
+        id: 2,
+        ativo: true,
+        titulo: 'Ovo Fechado com brinde surpresa e guloseimas',
+        descricao: '',
+        valor: 22,
+        peso: '120',
+        urlFoto: 'assets/ovos2024/ovoBrinde.jpeg',
+        recheio: null,
+      },
+      {
+        id: 3,
+        ativo: true,
+        titulo: 'Ovo Fechado com brinde surpresa e guloseimas',
+        descricao: '',
+        valor: 30,
+        peso: '200',
+        urlFoto: 'assets/ovos2024/ovoBrinde.jpeg',
+        recheio: null,
+      },
+      {
+        id: 4,
+        ativo: true,
+        titulo: 'Kit Confeiteiro',
+        descricao: '',
+        valor: 42,
+        peso: 'x',
+        urlFoto: 'assets/ovos2024/kitconfeiteiro.jpeg',
+        recheio: null,
+      },
+      {
+        id: 5,
+        ativo: true,
+        titulo: 'Ovo Explosão de guloseimas',
+        descricao: '',
+        valor: 60,
+        peso: '300',
+        urlFoto: 'assets/ovos2024/explosaoGuloseimas.jpeg',
+        recheio: null,
+      },
+
+      {
+        id: 6,
+        ativo: true,
+        titulo: 'Caixa com Alça com Guloseimas e Surpresas',
+        descricao: '',
+        valor: 42,
+        peso: '250',
+        urlFoto: 'assets/ovos2024/caixaAlca.jpeg',
+        recheio: null,
+      },
     ];
+    this.listaLembrancinhas = ['assets/ovos2024/lembrancinhas.jpeg'];
 
     this.diaDosNamorados = [
       {

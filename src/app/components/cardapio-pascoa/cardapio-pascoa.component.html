@@ -168,40 +168,11 @@
     </div>
   </div>
 
-  <div *ngFor="let prod of ovosInfantis" class="card">
-    <!-- <ngb-carousel class="carrossel">
-      <ng-template *ngFor="let foto of prod.urlFoto" ngbSlide>
-        <div class="picsum-img-wrapper">
-          <img [src]="foto" alt="Doces" />
-        </div>
-      </ng-template>
-    </ngb-carousel>
-    <img src="{{ prod.urlFoto[0] }}" alt="{{ prod.titulo }}" />-->
-
-    <div>
-      <h4 *ngIf="prod.ativo" class="title">{{ prod.titulo }}</h4>
-      <div class="minhaclasse">
-        <p *ngIf="prod.peso && prod.ativo" class="title">
-          Peso ≅ {{ prod.peso }}g
-        </p>
-        <h5 *ngIf="prod.ativo" class="preco">
-          {{ prod.valor | currency : "BRL" }}
-        </h5>
-      </div>
-      <img src="{{ prod.urlFoto }}" alt="{{ prod.titulo }}" />
-      <h5 *ngIf="!prod.ativo" class="esgotado">Esgotado</h5>
-      <p *ngIf="prod.recheio && prod.ativo">Sabores:</p>
-      <ul *ngFor="let recheio of prod.recheio">
-        <li *ngIf="prod.ativo">{{ recheio }}</li>
-      </ul>
-    </div>
-  </div>
-
   <h6>Lembrancinhas</h6>
 
-  <h5 class="esgotado">Esgotadas</h5>
-
-  <!--<div class="card-lembrancinha">
+  <!--<h5 class="esgotado">Esgotadas</h5>
+  -->
+  <div class="card-lembrancinha">
     <h4>Muitas opções saborosas</h4>
     <h5>A partir de</h5>
     <span class="preco">R$ 2,50</span>
@@ -213,5 +184,5 @@
         alt=""
       />
     </div>
-  </div>-->
+  </div>
 </section>
