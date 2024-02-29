@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
 
 body {
-  background-color: #fff0f3;
+  background-color: #fff0cf;
 }
 
 header,
@@ -25,4 +25,5 @@ li {
   padding: 0;
   box-sizing: border-box;
   font-family: "Comfortaa";
+  color: #568179;
 }

@@ -5,7 +5,7 @@ img {
 
 .card {
   display: flex;
-  background-color: #f7a4ad;
+  background-color: #775a46;
   color: white;
   outline: 2px white groove;
   outline-offset: -10px;
@@ -61,12 +61,14 @@ section {
 
 li {
   list-style-type: none;
+  color: white;
 }
 
 h3,
 h4,
 p {
   margin-bottom: 1rem;
+  color: white;
 }
 
 p {
@@ -76,7 +78,7 @@ p {
 .preco,
 .esgotado {
   font-size: larger;
-  background-color: #d87982;
+  background-color: white;
   border-radius: 10px;
   padding: 0.5rem;
   width: fit-content;

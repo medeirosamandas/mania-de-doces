@@ -13,8 +13,133 @@
   </div>
 
   <h6>Cardápio de Páscoa 2024!!!!</h6>
+  <h6>Mini Ovos</h6>
 
-  <div *ngFor="let prod of ovosDePascoa" class="card">
+  <div *ngFor="let prod of miniOvos" class="card">
+    <!-- <ngb-carousel class="carrossel">
+      <ng-template *ngFor="let foto of prod.urlFoto" ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="foto" alt="Doces" />
+        </div>
+      </ng-template>
+    </ngb-carousel>
+    <img src="{{ prod.urlFoto[0] }}" alt="{{ prod.titulo }}" />-->
+    <div>
+      <h4 *ngIf="prod.ativo" class="title">{{ prod.titulo }}</h4>
+      <h3 *ngIf="prod.ativo" class="description">{{ prod.descricao }}</h3>
+      <div class="minhaclasse">
+        <p *ngIf="prod.peso && prod.ativo" class="title">
+          Peso ≅ {{ prod.peso }}g
+        </p>
+        <h5 *ngIf="prod.ativo" class="preco">
+          {{ prod.valor | currency : "BRL" }}
+        </h5>
+      </div>
+      <img src="{{ prod.urlFoto }}" alt="{{ prod.titulo }}" />
+      <h5 *ngIf="!prod.ativo" class="esgotado">Esgotado</h5>
+      <p *ngIf="prod.recheio && prod.ativo">Sabores:</p>
+      <ul *ngFor="let recheio of prod.recheio">
+        <li *ngIf="prod.ativo">{{ recheio }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <h6>Trio de Ovos</h6>
+
+  <div *ngFor="let prod of trioDeOvos" class="card">
+    <!-- <ngb-carousel class="carrossel">
+      <ng-template *ngFor="let foto of prod.urlFoto" ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="foto" alt="Doces" />
+        </div>
+      </ng-template>
+    </ngb-carousel>
+    <img src="{{ prod.urlFoto[0] }}" alt="{{ prod.titulo }}" />-->
+    <div>
+      <h4 *ngIf="prod.ativo" class="title">{{ prod.titulo }}</h4>
+      <h3 *ngIf="prod.ativo" class="description">{{ prod.descricao }}</h3>
+      <div class="minhaclasse">
+        <p *ngIf="prod.peso && prod.ativo" class="title">
+          Peso ≅ {{ prod.peso }}g
+        </p>
+        <h5 *ngIf="prod.ativo" class="preco">
+          {{ prod.valor | currency : "BRL" }}
+        </h5>
+      </div>
+      <img src="{{ prod.urlFoto }}" alt="{{ prod.titulo }}" />
+      <h5 *ngIf="!prod.ativo" class="esgotado">Esgotado</h5>
+      <p *ngIf="prod.recheio && prod.ativo">Sabores:</p>
+      <ul *ngFor="let recheio of prod.recheio">
+        <li *ngIf="prod.ativo">{{ recheio }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <h6>Ovos de Colher</h6>
+
+  <div *ngFor="let prod of ovoDeColher" class="card">
+    <!-- <ngb-carousel class="carrossel">
+      <ng-template *ngFor="let foto of prod.urlFoto" ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="foto" alt="Doces" />
+        </div>
+      </ng-template>
+    </ngb-carousel>
+    <img src="{{ prod.urlFoto[0] }}" alt="{{ prod.titulo }}" />-->
+    <div>
+      <h4 *ngIf="prod.ativo" class="title">{{ prod.titulo }}</h4>
+      <h3 *ngIf="prod.ativo" class="description">{{ prod.descricao }}</h3>
+      <div class="minhaclasse">
+        <p *ngIf="prod.peso && prod.ativo" class="title">
+          Peso ≅ {{ prod.peso }}g
+        </p>
+        <h5 *ngIf="prod.ativo" class="preco">
+          {{ prod.valor | currency : "BRL" }}
+        </h5>
+      </div>
+      <img src="{{ prod.urlFoto }}" alt="{{ prod.titulo }}" />
+      <h5 *ngIf="!prod.ativo" class="esgotado">Esgotado</h5>
+      <p *ngIf="prod.recheio && prod.ativo">Sabores:</p>
+      <ul *ngFor="let recheio of prod.recheio">
+        <li *ngIf="prod.ativo">{{ recheio }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <h6>Ovo Fechado e Trufado</h6>
+
+  <div *ngFor="let prod of ovoFechado" class="card">
+    <!-- <ngb-carousel class="carrossel">
+      <ng-template *ngFor="let foto of prod.urlFoto" ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="foto" alt="Doces" />
+        </div>
+      </ng-template>
+    </ngb-carousel>
+    <img src="{{ prod.urlFoto[0] }}" alt="{{ prod.titulo }}" />-->
+    <div>
+      <h4 *ngIf="prod.ativo" class="title">{{ prod.titulo }}</h4>
+      <h3 *ngIf="prod.ativo" class="description">{{ prod.descricao }}</h3>
+      <div class="minhaclasse">
+        <p *ngIf="prod.peso && prod.ativo" class="title">
+          Peso ≅ {{ prod.peso }}g
+        </p>
+        <h5 *ngIf="prod.ativo" class="preco">
+          {{ prod.valor | currency : "BRL" }}
+        </h5>
+      </div>
+      <img src="{{ prod.urlFoto }}" alt="{{ prod.titulo }}" />
+      <h5 *ngIf="!prod.ativo" class="esgotado">Esgotado</h5>
+      <p *ngIf="prod.recheio && prod.ativo">Sabores:</p>
+      <ul *ngFor="let recheio of prod.recheio">
+        <li *ngIf="prod.ativo">{{ recheio }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <h6>Ovos de Páscoa Infantil</h6>
+
+  <div *ngFor="let prod of ovosInfantis" class="card">
     <!-- <ngb-carousel class="carrossel">
       <ng-template *ngFor="let foto of prod.urlFoto" ngbSlide>
         <div class="picsum-img-wrapper">
@@ -42,8 +167,6 @@
       </ul>
     </div>
   </div>
-
-  <h6>Ovos de Páscoa Infantil</h6>
 
   <div *ngFor="let prod of ovosInfantis" class="card">
     <!-- <ngb-carousel class="carrossel">
