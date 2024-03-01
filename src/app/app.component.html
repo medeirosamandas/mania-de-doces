@@ -1,8 +1,41 @@
 <app-header></app-header>
 
-<app-cardapio-pascoa></app-cardapio-pascoa>
+<nav>
+  <a
+    routerLink=""
+    routerLinkActive="selected"
+    [routerLinkActiveOptions]="{ exact: true }"
+    >Clique para ver <br /><span>OVOS DE PÁSCOA</span></a
+  >
+  <a routerLink="/lembrancinhas" routerLinkActive="selected"
+    >Clique para ver <br /><span>LEMBRANCINHAS</span></a
+  >
+</nav>
+<div class="observacao">
+  <p>Todos os ovos são feitos com chocolates Garoto&#174;</p>
+</div>
+
+<router-outlet></router-outlet>
+
+<div class="observacao">
+  <p>Todos os ovos são feitos com chocolates Garoto&#174;</p>
+</div>
+<br />
+<nav>
+  <a
+    routerLink="/"
+    routerLinkActive="selected"
+    [routerLinkActiveOptions]="{ exact: true }"
+    >Clique para ver <br /><span>OVOS DE PÁSCOA</span></a
+  >
+  <a routerLink="/lembrancinhas" routerLinkActive="selected"
+    >Clique para ver <br /><span>LEMBRANCINHAS</span></a
+  >
+</nav>
 <app-header></app-header>
 
+<!--
+<app-cardapio-pascoa></app-cardapio-pascoa>
+-->
 <!--<app-footer></app-footer>
 -->
-<router-outlet></router-outlet>

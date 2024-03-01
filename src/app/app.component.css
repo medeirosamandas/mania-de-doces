@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+a {
+  background-color: #acd181;
+  text-decoration: none;
+  color: black;
+  width: 50%;
+
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px white solid;
+}
+
+span {
+  font-weight: bolder;
+  font-size: large;
+}
+
+.selected {
+  background-color: #c2dea2;
+}
+
+.observacao {
+  width: 100%;
+  color: white!;
+  background-color: #d87982;
+  padding: 1rem;
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.observacao p {
+  color: white;
+}
