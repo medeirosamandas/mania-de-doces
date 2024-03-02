@@ -278,7 +278,7 @@ export class LembrancinhasComponent implements OnInit {
       {
         id: 19,
         ativo: true,
-        titulo: 'Mini cenouritos',
+        titulo: 'Bombons sortidos',
         descricao: null,
         descricao2: null,
         valor: 13,
@@ -308,7 +308,7 @@ export class LembrancinhasComponent implements OnInit {
       {
         id: 21,
         ativo: true,
-        titulo: 'Bombons sortidos',
+        titulo: 'Mini cenouritos',
         descricao: null,
         descricao2: null,
         valor: 3,
