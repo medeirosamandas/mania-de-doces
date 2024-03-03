@@ -219,6 +219,16 @@ export class CardapioPascoaComponent implements OnInit {
       {
         id: 5,
         ativo: true,
+        titulo: 'Caça aos ovos',
+        descricao: '6 mini ovos de 35g com surpresa fini',
+        valor: 29,
+        peso: '200',
+        urlFoto: 'assets/ovos2024/kitconfeiteiro.jpeg',
+        recheio: null,
+      },
+      {
+        id: 6,
+        ativo: true,
         titulo: 'Ovo Explosão de guloseimas',
         descricao: '',
         valor: 60,
@@ -228,7 +238,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
 
       {
-        id: 6,
+        id: 7,
         ativo: true,
         titulo: 'Caixa com Alça com Guloseimas e Surpresas',
         descricao: '',
