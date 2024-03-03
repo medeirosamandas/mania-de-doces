@@ -220,10 +220,10 @@ export class CardapioPascoaComponent implements OnInit {
         id: 5,
         ativo: true,
         titulo: 'Caça aos ovos',
-        descricao: '6 mini ovos de 35g com surpresa fini',
+        descricao: '6 mini ovos de 35g com surpresa Fini',
         valor: 29,
         peso: '200',
-        urlFoto: 'assets/ovos2024/kitconfeiteiro.jpeg',
+        urlFoto: 'assets/ovos2024/cacaaosovos.jpeg',
         recheio: null,
       },
       {
