@@ -87,9 +87,9 @@ p {
   background-color: #f7a4ad;
 }
 .esgotado {
-  margin: 2rem auto 0;
+  margin: auto;
+  background-color: #d87982;
 }
-
 .observacao {
   width: 100%;
   color: white!;
