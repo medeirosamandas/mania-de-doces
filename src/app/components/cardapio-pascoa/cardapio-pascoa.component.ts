@@ -19,21 +19,6 @@ export class CardapioPascoaComponent implements OnInit {
   ngOnInit(): void {
     this.miniOvos = [
       {
-        id: 3,
-        ativo: true,
-        titulo: 'Mini Ovos',
-        descricao: '4 Unidades',
-        valor: 38,
-        peso: '250',
-        urlFoto: 'assets/ovos2024/mini3.jpeg',
-        recheio: [
-          'Opção 1: Limão, Maracujá, Ferrero e Pistache',
-          'Opção 2: Paçoca, Kinder, Kit Kat e Banoffe (casca Caribe)',
-          'Opção 3: Paçoca, Brigadeiro, Folhado com Morangos e Ninho com Nutella',
-          'Opção 4: Pudim, Pistache com Morango, Casadinho e  Beijinho',
-        ],
-      },
-      {
         id: 1,
         ativo: false,
         titulo: 'Mini Ovos',
@@ -59,9 +44,8 @@ export class CardapioPascoaComponent implements OnInit {
           'Pudim',
         ],
       },
-     
-      
-       {
+
+      {
         id: 2,
         ativo: false,
         titulo: 'Mini Ovos',
@@ -85,6 +69,21 @@ export class CardapioPascoaComponent implements OnInit {
           'Pistache',
           'Pistache com Morango',
           'Pudim',
+        ],
+      },
+      {
+        id: 3,
+        ativo: false,
+        titulo: 'Mini Ovos',
+        descricao: '4 Unidades',
+        valor: 38,
+        peso: '250',
+        urlFoto: 'assets/ovos2024/mini3.jpeg',
+        recheio: [
+          'Opção 1: Limão, Maracujá, Ferrero e Pistache',
+          'Opção 2: Paçoca, Kinder, Kit Kat e Banoffe (casca Caribe)',
+          'Opção 3: Paçoca, Brigadeiro, Folhado com Morangos e Ninho com Nutella',
+          'Opção 4: Pudim, Pistache com Morango, Casadinho e  Beijinho',
         ],
       },
     ];
