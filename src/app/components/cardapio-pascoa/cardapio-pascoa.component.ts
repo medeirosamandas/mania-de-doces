@@ -223,16 +223,6 @@ export class CardapioPascoaComponent implements OnInit {
       },
 
       {
-        id: 4,
-        ativo: false,
-        titulo: 'Kit Confeiteiro',
-        descricao: '',
-        valor: 42,
-        peso: null,
-        urlFoto: 'assets/ovos2024/kitconfeiteiro.jpeg',
-        recheio: null,
-      },
-      {
         id: 5,
         ativo: true,
         titulo: 'Caça aos ovos',
@@ -261,6 +251,16 @@ export class CardapioPascoaComponent implements OnInit {
         valor: 42,
         peso: '250',
         urlFoto: 'assets/ovos2024/caixaAlca.jpeg',
+        recheio: null,
+      },
+      {
+        id: 4,
+        ativo: false,
+        titulo: 'Kit Confeiteiro',
+        descricao: '',
+        valor: 42,
+        peso: null,
+        urlFoto: 'assets/ovos2024/kitconfeiteiro.jpeg',
         recheio: null,
       },
     ];
