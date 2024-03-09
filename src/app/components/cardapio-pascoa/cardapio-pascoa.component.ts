@@ -22,7 +22,7 @@ export class CardapioPascoaComponent implements OnInit {
         id: 4,
         ativo: true,
         titulo: 'Quarteto de Mini Ovos',
-        descricao: '4 Unidades',
+        descricao: null,
         valor: 33,
         peso: '250',
         urlFoto: 'assets/ovos2024/mini4.jpeg',
@@ -224,7 +224,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 4,
-        ativo: true,
+        ativo: false,
         titulo: 'Kit Confeiteiro',
         descricao: '',
         valor: 42,
