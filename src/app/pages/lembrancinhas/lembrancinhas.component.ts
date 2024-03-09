@@ -97,21 +97,7 @@ export class LembrancinhasComponent implements OnInit {
         urlFoto: 'assets/lembrancinhas2024/06.jpg',
         recheio: null,
       },
-       {
-        id: 8,
-        ativo: true,
-        titulo: '2 controles divertidos',
-        descricao: null,
-        valor: 15,
-        peso: null,
-        valor2: null,
-        peso2: null,
-        valor3: null,
-        peso3: null,
-        urlFoto: 'assets/lembrancinhas2024/08.jpg',
-        recheio: null,
-      },
-      
+
       {
         id: 10,
         ativo: true,
@@ -337,7 +323,6 @@ export class LembrancinhasComponent implements OnInit {
         urlFoto: 'assets/lembrancinhas2024/07.jpg',
         recheio: null,
       },
-     
 
       {
         id: 9,
@@ -366,6 +351,20 @@ export class LembrancinhasComponent implements OnInit {
         valor3: null,
         peso3: null,
         urlFoto: 'assets/lembrancinhas2024/11.jpg',
+        recheio: null,
+      },
+      {
+        id: 8,
+        ativo: false,
+        titulo: '2 controles divertidos',
+        descricao: null,
+        valor: 15,
+        peso: null,
+        valor2: null,
+        peso2: null,
+        valor3: null,
+        peso3: null,
+        urlFoto: 'assets/lembrancinhas2024/08.jpg',
         recheio: null,
       },
     ];
