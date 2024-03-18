@@ -160,7 +160,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 7,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo de Colher',
         descricao: 'com 4 docinhos sortidos',
         valor: 80,
