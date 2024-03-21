@@ -119,7 +119,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.trioDeOvos = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Trio de Ovos',
         descricao: 'Sabores Tradicionais',
         valor: 58,
@@ -199,7 +199,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 3,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Fechado e Trufado',
         descricao: 'Sabores Especiais',
         valor: 57,
