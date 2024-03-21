@@ -18,9 +18,22 @@ export class CardapioPascoaComponent implements OnInit {
 
   ngOnInit(): void {
     this.miniOvos = [
+         {
+        id: 5,
+        ativo: true,
+        titulo: 'Quarteto de Mini Ovos',
+        descricao: null,
+        valor: 33,
+        peso: '250',
+        urlFoto: 'assets/ovos2024/ovinhos.jpeg',
+        recheio: [
+          'Recheio: Paçoca, Ninho com Nutella, Beijinho e Brigadeiro',
+        
+        ],
+      },
       {
         id: 4,
-        ativo: true,
+        ativo: false,
         titulo: 'Quarteto de Mini Ovos',
         descricao: null,
         valor: 33,
