@@ -27,7 +27,7 @@ export class CardapioPascoaComponent implements OnInit {
         peso: '250',
         urlFoto: 'assets/ovos2024/ovinhos.jpeg',
         recheio: [
-          'Recheio: Paçoca, Ninho com Nutella, Beijinho e Brigadeiro',
+          'Paçoca, Ninho com Nutella, Beijinho e Brigadeiro',
         
         ],
       },
