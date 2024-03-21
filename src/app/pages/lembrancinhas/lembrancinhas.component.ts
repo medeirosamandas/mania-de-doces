@@ -102,9 +102,9 @@ export class LembrancinhasComponent implements OnInit {
         id: 10,
         ativo: true,
         titulo: 'kit docinhos',
-        descricao: 'kit com 2',
+        descricao: null,
         descricao2: 'kit com 4',
-        valor: 5,
+        valor: null,
         peso: null,
         valor2: 12,
         peso2: null,
@@ -113,8 +113,6 @@ export class LembrancinhasComponent implements OnInit {
         urlFoto: 'assets/lembrancinhas2024/10.jpg',
         recheio: null,
       },
-
-      
 
       {
         id: 14,
@@ -131,21 +129,7 @@ export class LembrancinhasComponent implements OnInit {
         urlFoto: 'assets/lembrancinhas2024/14.jpg',
         recheio: null,
       },
-      {
-        id: 15,
-        ativo: true,
-        titulo: '4 docinhos',
-        descricao: '12g cada',
-        descricao2: null,
-        valor: 6,
-        peso: '48',
-        valor2: null,
-        peso2: null,
-        valor3: null,
-        peso3: null,
-        urlFoto: 'assets/lembrancinhas2024/15.jpg',
-        recheio: null,
-      },
+
       {
         id: 16,
         ativo: true,
@@ -252,7 +236,7 @@ export class LembrancinhasComponent implements OnInit {
         urlFoto: 'assets/lembrancinhas2024/24.jpg',
         recheio: null,
       },
-            {
+      {
         id: 25,
         ativo: true,
         titulo: 'Coelho Divertido',
@@ -339,6 +323,21 @@ export class LembrancinhasComponent implements OnInit {
         valor3: null,
         peso3: null,
         urlFoto: 'assets/lembrancinhas2024/13.jpg',
+        recheio: null,
+      },
+      {
+        id: 15,
+        ativo: false,
+        titulo: '4 docinhos',
+        descricao: '12g cada',
+        descricao2: null,
+        valor: 6,
+        peso: '48',
+        valor2: null,
+        peso2: null,
+        valor3: null,
+        peso3: null,
+        urlFoto: 'assets/lembrancinhas2024/15.jpg',
         recheio: null,
       },
       {

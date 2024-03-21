@@ -116,7 +116,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Trio de Ovos',
         descricao: 'Sabores Especiais',
         valor: 68,
