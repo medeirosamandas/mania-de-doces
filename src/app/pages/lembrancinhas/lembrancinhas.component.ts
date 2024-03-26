@@ -15,7 +15,7 @@ export class LembrancinhasComponent implements OnInit {
     this.listaLembrancinhas = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Balões',
         descricao: null,
         valor: 20,
@@ -29,7 +29,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovinhos Recheados com Bala Fini',
         descricao: null,
         valor: 20,
@@ -41,7 +41,7 @@ export class LembrancinhasComponent implements OnInit {
         urlFoto: 'assets/lembrancinhas2024/02.jpg',
         recheio: null,
       },
-     
+
       {
         id: 4,
         ativo: true,
@@ -58,7 +58,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 5,
-        ativo: true,
+        ativo: false,
         titulo: 'Kit 3 Docinhos + 2 rabinhos de coelho',
         descricao: null,
         valor: 16,
@@ -70,7 +70,6 @@ export class LembrancinhasComponent implements OnInit {
         urlFoto: 'assets/lembrancinhas2024/05.jpg',
         recheio: null,
       },
-
 
       {
         id: 10,
@@ -137,7 +136,7 @@ export class LembrancinhasComponent implements OnInit {
 
       {
         id: 20,
-        ativo: true,
+        ativo: false,
         titulo: 'Bombons sortidos',
         descricao: null,
         descricao2: null,
@@ -225,7 +224,7 @@ export class LembrancinhasComponent implements OnInit {
         urlFoto: 'assets/lembrancinhas2024/coelho_.jpeg',
         recheio: null,
       },
-             {
+      {
         id: 3,
         ativo: false,
         titulo: '2 mini ovos divertidos',

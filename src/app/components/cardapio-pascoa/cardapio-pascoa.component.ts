@@ -18,18 +18,15 @@ export class CardapioPascoaComponent implements OnInit {
 
   ngOnInit(): void {
     this.miniOvos = [
-         {
+      {
         id: 5,
-        ativo: true,
+        ativo: false,
         titulo: 'Quarteto de Mini Ovos',
         descricao: null,
         valor: 33,
         peso: '250',
         urlFoto: 'assets/ovos2024/ovinhos.jpeg',
-        recheio: [
-          'Paçoca, Ninho com Nutella, Beijinho e Brigadeiro',
-        
-        ],
+        recheio: ['Paçoca, Ninho com Nutella, Beijinho e Brigadeiro'],
       },
       {
         id: 4,
@@ -186,7 +183,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovoFechado = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Fechado e Trufado',
         descricao: 'Sabores Tradicionais',
         valor: 50,
@@ -224,7 +221,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Fechado com brinde surpresa e guloseimas',
         descricao: '',
         valor: 22,
@@ -237,7 +234,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 5,
-        ativo: true,
+        ativo: false,
         titulo: 'Caça aos ovos',
         descricao: '6 mini ovos de 35g com surpresa Fini',
         valor: 29,
@@ -247,7 +244,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 6,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Explosão de guloseimas',
         descricao: '',
         valor: 60,
