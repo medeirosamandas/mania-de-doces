@@ -220,6 +220,16 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: null,
       },
       {
+        id: 7,
+        ativo: true,
+        titulo: 'Caixa com Alça com Guloseimas e Surpresas',
+        descricao: '',
+        valor: 42,
+        peso: '250',
+        urlFoto: 'assets/ovos2024/caixaAlca.jpeg',
+        recheio: null,
+      },
+      {
         id: 2,
         ativo: false,
         titulo: 'Ovo Fechado com brinde surpresa e guloseimas',
@@ -253,16 +263,6 @@ export class CardapioPascoaComponent implements OnInit {
         recheio: null,
       },
 
-      {
-        id: 7,
-        ativo: true,
-        titulo: 'Caixa com Alça com Guloseimas e Surpresas',
-        descricao: '',
-        valor: 42,
-        peso: '250',
-        urlFoto: 'assets/ovos2024/caixaAlca.jpeg',
-        recheio: null,
-      },
       {
         id: 4,
         ativo: false,
