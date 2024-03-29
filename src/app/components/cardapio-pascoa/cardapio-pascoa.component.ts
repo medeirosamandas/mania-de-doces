@@ -144,10 +144,10 @@ export class CardapioPascoaComponent implements OnInit {
         descricao: 'Queridinhos',
         valor: 40,
         peso: '200',
-        valor2: 75,
-        peso2: '400',
-        valor3: 85,
-        peso3: '600',
+        valor2: null,
+        peso2: null,
+        valor3: null,
+        peso3: null,
         urlFoto: 'assets/ovos2024/ovoColher1.jpeg',
         recheio: [
           'Ninho, Nutella e Morangos',
@@ -158,7 +158,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 5,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo de Colher Especial',
         descricao: 'Nutellaço',
         valor: 80,
