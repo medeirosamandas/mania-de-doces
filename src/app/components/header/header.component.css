@@ -2,7 +2,7 @@ img {
   height: 200px;
 }
 
-header {
+a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -12,6 +12,7 @@ header {
   flex-wrap: wrap;
   background-color: #fff;
   border-bottom: 1px red #fafafa;
+  text-decoration: none;
 }
 
 #pascoa {
