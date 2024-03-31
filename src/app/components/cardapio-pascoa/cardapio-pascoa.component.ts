@@ -139,7 +139,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovoDeColher = [
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo de Colher',
         descricao: 'Queridinhos',
         valor: 40,
@@ -211,7 +211,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovosInfantis = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo com Copo Personalizado',
         descricao: '',
         valor: 35,
@@ -221,7 +221,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 7,
-        ativo: true,
+        ativo: false,
         titulo: 'Caixa com Alça com Guloseimas e Surpresas',
         descricao: '',
         valor: 42,

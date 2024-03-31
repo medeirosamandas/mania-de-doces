@@ -15,7 +15,7 @@ export class LembrancinhasComponent implements OnInit {
     this.listaLembrancinhas = [
       {
         id: 4,
-        ativo: true,
+        ativo: false,
         titulo: 'Kit 6 Docinhos',
         descricao: null,
         valor: 16,
@@ -29,7 +29,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 10,
-        ativo: true,
+        ativo: false,
         titulo: 'kit docinhos',
         descricao: 'kit com 4',
         descricao2: null,
@@ -45,7 +45,7 @@ export class LembrancinhasComponent implements OnInit {
 
       {
         id: 14,
-        ativo: true,
+        ativo: false,
         titulo: 'Cenouritos',
         descricao: '1 unidade',
         descricao2: '2 unidades',
@@ -61,7 +61,7 @@ export class LembrancinhasComponent implements OnInit {
 
       {
         id: 16,
-        ativo: true,
+        ativo: false,
         titulo: '',
         descricao: 'Docinho com coelhinho',
         descricao2: null,
@@ -76,7 +76,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 17,
-        ativo: true,
+        ativo: false,
         titulo: 'unidade bombom',
         descricao: null,
         descricao2: null,
@@ -91,7 +91,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 21,
-        ativo: true,
+        ativo: false,
         titulo: 'Mini cenouritos',
         descricao: null,
         descricao2: null,
@@ -106,7 +106,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 22,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Frito',
         descricao: null,
         descricao2: null,
@@ -121,7 +121,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 23,
-        ativo: true,
+        ativo: false,
         titulo: 'Coelhinho',
         descricao: null,
         descricao2: null,
@@ -136,7 +136,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 24,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Plano',
         descricao: null,
         descricao2: null,
