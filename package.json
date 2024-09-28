@@ -24,7 +24,6 @@
     "node": "^21.7.1",
     "rxjs": "~7.8.1",
     "tslib": "^2.6.2",
-    "webpack-dev-middleware": "^7.1.1",
     "zone.js": "~0.14.4"
   },
   "devDependencies": {
