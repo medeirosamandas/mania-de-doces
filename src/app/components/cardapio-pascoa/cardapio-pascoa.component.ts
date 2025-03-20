@@ -31,7 +31,7 @@ export class CardapioPascoaComponent implements OnInit {
         peso2: '130',
         urlFoto: 'assets/ovos2024/mini2.jpeg',
         recheio: [
-          'Brigadeiro', 'Cocadinha', 'Paçoca', 'Ninho com Nutella', 'Ninho com Morango', 'Naracujá', 'Limão',
+          'Brigadeiro', 'Cocadinha', 'Paçoca', 'Ninho com Nutella', 'Ninho com Morango', 'Maracujá', 'Limão',
         ],
       },
 
@@ -45,7 +45,7 @@ export class CardapioPascoaComponent implements OnInit {
         descricao2: null,
         urlFoto: 'assets/ovos2024/duomini.jpeg',
         recheio: [
-          'Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Morango', 'Naracujá',
+          'Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Morango', 'Maracujá',
         ],
       },
 

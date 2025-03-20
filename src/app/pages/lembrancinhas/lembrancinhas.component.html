@@ -16,8 +16,8 @@
     <img src="{{ prod.urlFoto[0] }}" alt="{{ prod.titulo }}" />-->
     <p>Lembrancinha {{ prod.id }}</p>
     <div>
-      <h4 *ngIf="prod.ativo && prod.titulo" class="title">{{ prod.titulo }}</h4>
-      <h3 *ngIf="prod.ativo" class="description">{{ prod.descricao }}</h3>
+     <!-- <h4 *ngIf="prod.ativo && prod.titulo" class="title">{{ prod.titulo }}</h4>
+      <h3 *ngIf="prod.ativo" class="description">{{ prod.descricao }}</h3>-->
       <div class="minhaclasse" *ngIf="prod.ativo">
         <p *ngIf="prod.peso && prod.ativo" class="title">
           Peso ≅ {{ prod.peso }}g
