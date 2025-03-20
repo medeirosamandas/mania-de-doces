@@ -19,7 +19,7 @@ export class LembrancinhasComponent implements OnInit {
         titulo: 'Balões',
         descricao: null,
         valor: 2.5  ,
-        peso: '100',
+        peso: null,
         valor2: null,
         peso2: null,
         valor3: null,
