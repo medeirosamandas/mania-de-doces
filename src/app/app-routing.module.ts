@@ -5,7 +5,7 @@ import { LembrancinhasComponent } from './pages/lembrancinhas/lembrancinhas.comp
 import { CardapioPascoaComponent } from './components/cardapio-pascoa/cardapio-pascoa.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: CardapioPascoaComponent },
   { path: 'ovospascoa', component: CardapioPascoaComponent },
   { path: 'lembrancinhas', component: LembrancinhasComponent },
 ];
