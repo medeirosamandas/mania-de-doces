@@ -58,7 +58,7 @@ export class LembrancinhasComponent implements OnInit {
 
       {
         id: 4,
-        ativo: true,
+        ativo: false,
         titulo: 'Kit 6 Docinhos',
         descricao: null,
         valor: 3.5,

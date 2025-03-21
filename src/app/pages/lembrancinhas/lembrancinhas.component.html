@@ -47,7 +47,7 @@
       </div>
       <h5 *ngIf="!prod.ativo" class="esgotado">ESGOTADO</h5>
       <br *ngIf="!prod.ativo" />
-      <img src="{{ prod.urlFoto }}" alt="{{ prod.titulo }}" />
+      <img [src]="prod.urlFoto" alt="{{ prod.titulo }}" [ngClass]="{'esgotado-img': !prod.ativo}" />
       <p *ngIf="prod.recheio && prod.ativo">Sabores:</p>
       <ul *ngFor="let recheio of prod.recheio">
         <li *ngIf="prod.ativo">{{ recheio }}</li>

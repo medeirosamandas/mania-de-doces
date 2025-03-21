@@ -140,3 +140,8 @@ h4 {
 
 li {
 }
+
+.esgotado-img {
+  filter: grayscale(100%);
+  opacity: 0.5; /* Opcional: reduz um pouco a opacidade */
+}
