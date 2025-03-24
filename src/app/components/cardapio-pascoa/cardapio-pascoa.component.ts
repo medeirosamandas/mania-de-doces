@@ -166,6 +166,18 @@ export class CardapioPascoaComponent implements OnInit {
       {
         id: 1,
         ativo: true,
+        titulo: 'Ovo Fini Dentaduras ou Ovo Fini Beijos',
+        descricao: '',
+        valor: 66,
+        peso: '480',
+        valor2: 88,
+        peso2: '650',
+        urlFoto: 'assets/ovos2024/infantilFini.jpeg',
+        recheio: null,
+      },
+      {
+        id: 1,
+        ativo: true,
         titulo: 'Ovo com Copo Personalizado',
         descricao: '',
         valor: 40,
