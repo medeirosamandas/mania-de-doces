@@ -114,7 +114,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 8,
-        ativo: true,
+        ativo: false,
         titulo: '2 controles divertidos',
         descricao: null,
         valor: 12,
@@ -324,7 +324,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 22,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Frito',
         descricao: null,
         descricao2: null,
