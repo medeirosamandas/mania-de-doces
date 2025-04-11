@@ -26,9 +26,7 @@ export class CardapioPascoaComponent implements OnInit {
         descricao: '1 Unidade',
         valor: 12,
         peso: '65',
-        descricao2: '2 Unidades',
-        valor2: 20,
-        peso2: '130',
+ 
         urlFoto: 'assets/ovos2024/mini2.jpeg',
         recheio: [
           'Brigadeiro', 'Cocadinha', 'Paçoca', 'Ninho com Nutella', 'Ninho com Morango', 'Maracujá', 'Limão',
