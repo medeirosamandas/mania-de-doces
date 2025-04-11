@@ -92,8 +92,7 @@ export class CardapioPascoaComponent implements OnInit {
         ativo: true,
         titulo: 'Ovo de Colher',
         descricao: 'Queridinhos',
-        valor: 40,
-        peso: '230',
+
         valor2: 80,
         peso2: '400',
         valor3: 90,
