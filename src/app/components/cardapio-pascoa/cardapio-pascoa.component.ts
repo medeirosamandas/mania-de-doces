@@ -105,7 +105,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 5,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo de Colher Especial',
         descricao: 'Nutellaço',
         valor: 90,
@@ -117,7 +117,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 6,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo de Colher Especial',
         descricao: 'Kidivertido',
         valor: 90,
@@ -138,8 +138,7 @@ export class CardapioPascoaComponent implements OnInit {
         descricao: 'Sabores Tradicionais',
         valor: 60,
         peso: '480',
-        valor2: 70,
-        peso2: '650',
+
         urlFoto: 'assets/ovos2024/ovosFechados.jpeg',
         recheio: ['Cocadinha', 'Brigadeiro', 'Paçoca', 'Maracujá', 'Casadinho'],
       },
@@ -151,8 +150,7 @@ export class CardapioPascoaComponent implements OnInit {
         descricao: 'Sabores Especiais',
         valor: 68,
         peso: '480',
-        valor2: 90,
-        peso2: '650',
+
         urlFoto: 'assets/ovos2024/ovoFechado.jpeg',
         recheio: ['Ninho com Nutella'],
       },
@@ -166,8 +164,7 @@ export class CardapioPascoaComponent implements OnInit {
         descricao: '',
         valor: 66,
         peso: '480',
-        valor2: 88,
-        peso2: '650',
+
         urlFoto: 'assets/ovos2024/infantilFini.jpeg',
         recheio: null,
       },
