@@ -35,7 +35,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Duo de Mini Ovos',
         descricao: '2 Unidades',
         valor: 30,
@@ -50,7 +50,7 @@ export class CardapioPascoaComponent implements OnInit {
       
       {
         id: 3,
-        ativo: true,
+        ativo: false,
         titulo: 'Quarteto de Mini Ovos',
         descricao: '4 Unidades',
         valor: 40,
@@ -92,11 +92,10 @@ export class CardapioPascoaComponent implements OnInit {
         ativo: true,
         titulo: 'Ovo de Colher',
         descricao: 'Queridinhos',
-
-        valor2: 80,
-        peso2: '400',
-        valor3: 90,
-        peso3: '600',
+        valor: 80,
+        peso: '400',
+        valor2: 90,
+        peso2: '600',
         urlFoto: 'assets/ovos2024/ovoColherQueridinho.jpeg',
         recheio: [
           'Ninho, Nutella e Morangos',
@@ -155,7 +154,7 @@ export class CardapioPascoaComponent implements OnInit {
         valor2: 90,
         peso2: '650',
         urlFoto: 'assets/ovos2024/ovoFechado.jpeg',
-        recheio: ['Pistache', 'Ninho com Nutella'],
+        recheio: ['Ninho com Nutella'],
       },
     ];
 
