@@ -89,7 +89,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovoDeColher = [
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo de Colher',
         descricao: 'Queridinhos',
         valor: 80,
