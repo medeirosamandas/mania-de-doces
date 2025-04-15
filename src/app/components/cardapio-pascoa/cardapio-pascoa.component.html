@@ -84,14 +84,7 @@
       <ul *ngFor="let recheio of prod.recheio">
         <li *ngIf="prod.ativo">{{ recheio }}</li>
       </ul>
-      <h3 *ngIf="prod.ativo" class="description">{{ prod.descricao2 }}</h3>
-      <div class="minhaclasse">
-        <p *ngIf="prod.peso && prod.ativo" class="title">
-          Peso ≅ {{ prod.peso }}g
-        </p>
-        <h5 *ngIf="prod.ativo" class="preco">
-          {{ prod.valor2 | currency : "BRL" }}
-        </h5>
+  
       </div>
       <p *ngIf="prod.recheio && prod.ativo">Sabores:</p>
       <ul *ngFor="let recheio of prod.recheio2">
