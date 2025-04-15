@@ -218,7 +218,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 15,
-        ativo: true,
+        ativo: false,
         titulo: '4 docinhos',
         descricao: null,
         descricao2: null,
@@ -233,7 +233,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 16,
-        ativo: true,
+        ativo: false,
         titulo: '',
         descricao: 'Docinho com coelhinho',
         descricao2: null,

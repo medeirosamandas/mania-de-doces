@@ -76,12 +76,9 @@ export class CardapioPascoaComponent implements OnInit {
         descricao: 'Sabores Tradicionais',
         valor: 63,
         peso: '430',
-        descricao2: 'Sabores Especiais',
-        valor2: 75,
-        peso2: '430',
+   
         urlFoto: 'assets/ovos2024/trio3.jpeg',
         recheio: ['Beijinho, Brigadeiro e Paçoca'],
-        recheio2: ['Pistache, Ninho com Morango e Ferrero'],
       },
       
     ];
@@ -145,7 +142,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 3,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Fechado e Trufado',
         descricao: 'Sabores Especiais',
         valor: 68,
