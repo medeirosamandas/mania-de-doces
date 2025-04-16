@@ -263,7 +263,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 18,
-        ativo: true,
+        ativo: false,
         titulo: 'mini ovinho com embalagem coelhinho',
         descricao: null,
         descricao2: null,
@@ -293,7 +293,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 20,
-        ativo: true,
+        ativo: false,
         titulo: 'Bombons sortidos',
         descricao: null,
         descricao2: null,
