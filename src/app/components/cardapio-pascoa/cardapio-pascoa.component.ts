@@ -213,7 +213,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 4,
-        ativo: true,
+        ativo: false,
         titulo: 'Kit Confeiteiro 2',
         descricao: '',
         valor: 50,
