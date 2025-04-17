@@ -43,7 +43,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 3,
-        ativo: true,
+        ativo: false,
         titulo: '2 mini ovos divertidos',
         descricao: null,
         valor: 3.5,
@@ -72,7 +72,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 5,
-        ativo: true,
+        ativo: false,
         titulo: 'Kit 3 Docinhos + 2 rabinhos de coelho',
         descricao: null,
         valor: 6.5,
@@ -86,7 +86,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 6,
-        ativo: true,
+        ativo: false,
         titulo: 'Controle Recheado',
         descricao: null,
         valor: 9,
@@ -157,7 +157,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 11,
-        ativo: true,
+        ativo: false,
         titulo: 'kit 8 docinhos',
         descricao: null,
         descricao2: null,
@@ -172,7 +172,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 12,
-        ativo: true,
+        ativo: false,
         titulo: 'kit 6 docinhos',
         descricao: null,
         descricao2: null,
@@ -187,7 +187,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 13,
-        ativo: true,
+        ativo: false,
         titulo: '3 coelhos recheados',
         descricao: null,
         descricao2: null,
@@ -203,7 +203,7 @@ export class LembrancinhasComponent implements OnInit {
 
       {
         id: 14,
-        ativo: true,
+        ativo: false,
         titulo: 'Cenouritos',
         descricao: '1 unidade',
         descricao2: null,
@@ -248,7 +248,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 17,
-        ativo: true,
+        ativo: false,
         titulo: 'unidade bombom',
         descricao: null,
         descricao2: null,
@@ -278,7 +278,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 19,
-        ativo: true,
+        ativo: false,
         titulo: 'Bombons sortidos',
         descricao: null,
         descricao2: null,
@@ -309,7 +309,7 @@ export class LembrancinhasComponent implements OnInit {
 
       {
         id: 21,
-        ativo: true,
+        ativo: false,
         titulo: 'Mini cenouritos',
         descricao: null,
         descricao2: null,
