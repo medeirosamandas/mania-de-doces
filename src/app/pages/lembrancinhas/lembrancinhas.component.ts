@@ -100,7 +100,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 7,
-        ativo: true,
+        ativo: false,
         titulo: '6 docinhos + 2 mini ovos divertidos',
         descricao: null,
         valor: 5.5,
@@ -128,7 +128,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 9,
-        ativo: true,
+        ativo: false,
         titulo: '4 mini ovos divertidos',
         descricao: null,
         valor: 10,
@@ -142,7 +142,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 10,
-        ativo: true,
+        ativo: false,
         titulo: 'kit docinhos',
         descricao: 'kit com 4',
         descricao2: null,
