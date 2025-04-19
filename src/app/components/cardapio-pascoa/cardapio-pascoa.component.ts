@@ -21,7 +21,7 @@ export class CardapioPascoaComponent implements OnInit {
     
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Mini Ovos',
         descricao: '1 Unidade',
         valor: 12,
@@ -71,7 +71,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.trioDeOvos = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Trio de Ovos',
         descricao: 'Sabores Tradicionais',
         valor: 63,
@@ -130,7 +130,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovoFechado = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Fechado e Trufado',
         descricao: 'Sabores Tradicionais',
         valor: 60,
@@ -156,7 +156,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovosInfantis = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Fini Dentaduras ou Ovo Fini Beijos',
         descricao: '',
         valor: 66,
@@ -167,7 +167,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo com Copo Personalizado',
         descricao: '',
         valor: 40,
@@ -177,7 +177,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo com Garrafa Personalizado',
         descricao: '',
         valor: 38,
@@ -188,7 +188,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 3,
-        ativo: true,
+        ativo: false,
         titulo: 'Combinado Brinde Surpresa e Guloseimas',
         descricao: '',
         valor: 32,
@@ -203,7 +203,7 @@ export class CardapioPascoaComponent implements OnInit {
  
       {
         id: 4,
-        ativo: true,
+        ativo: false,
         titulo: 'Kit Confeiteiro 1',
         descricao: '',
         valor: 45,
