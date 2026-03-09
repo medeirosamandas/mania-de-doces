@@ -21,7 +21,7 @@ export class CardapioPascoaComponent implements OnInit {
     
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Mini Ovos',
         descricao: '1 Unidade',
         valor: 12,
@@ -74,7 +74,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.trioDeOvos = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Trio de Ovos',
         descricao: 'Sabores Tradicionais - Cocadinha, Brigadeiro e Paçoca',
         valor: 75,
@@ -127,7 +127,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovoFechado = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Fechado e Trufado',
         descricao: 'Sabores Tradicionais',
         valor: 75,
@@ -182,7 +182,7 @@ export class CardapioPascoaComponent implements OnInit {
     
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo com Copo Personalizado',
         descricao: '',
         valor: 40,

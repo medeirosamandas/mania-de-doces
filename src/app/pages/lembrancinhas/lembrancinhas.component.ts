@@ -72,7 +72,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 5,
-        ativo: true,
+        ativo: false,
         titulo: 'Cenourito',
         descricao: 'Casquinha de chocolate com brigadeiro e bolo de cenoura',
         valor: 3,
@@ -114,7 +114,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 8,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Frito 2',
         descricao: null,
         valor: 10,
