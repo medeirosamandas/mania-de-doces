@@ -26,31 +26,34 @@ export class CardapioPascoaComponent implements OnInit {
         descricao: '1 Unidade',
         valor: 12,
         peso: '65',
+        descricao2: '2 Unidades',
+        valor2: 22,
+        peso2: '130',
  
         urlFoto: 'assets/ovos2024/mini2.jpeg',
         recheio: [
-          'Brigadeiro', 'Cocadinha', 'Paçoca', 'Ninho com Nutella', 'Ninho com Morango', 'Maracujá', 'Limão',
+          'Brigadeiro', 'Cocadinha', 'Paçoca', 'Ninho com Morango', 'Limão',
         ],
       },
 
       {
         id: 2,
-        ativo: false,
-        titulo: 'Duo de Mini Ovos',
+        ativo: true,
+        titulo: 'Duo de Ovos',
         descricao: '2 Unidades',
-        valor: 30,
-        peso: '170',
-        descricao2: null,
+        valor: 32,
+        peso: '180',
+      
         urlFoto: 'assets/ovos2024/duomini.jpeg',
         recheio: [
-          'Brigadeiro', 'Beijinho', 'Paçoca', 'Ninho com Morango', 'Maracujá',
+          'Brigadeiro', 'Cocadinha', 'Paçoca', 'Ninho com Morango', 'Limão',
         ],
       },
 
       
       {
         id: 3,
-        ativo: false,
+        ativo: true,
         titulo: 'Quarteto de Mini Ovos',
         descricao: '4 Unidades',
         valor: 40,
@@ -73,12 +76,15 @@ export class CardapioPascoaComponent implements OnInit {
         id: 1,
         ativo: true,
         titulo: 'Trio de Ovos',
-        descricao: 'Sabores Tradicionais',
-        valor: 63,
+        descricao: 'Sabores Tradicionais - Cocadinha, Brigadeiro e Paçoca',
+        valor: 75,
         peso: '430',
+        descricao2: 'Sabores Especiais - Pistacche, Ninho com Morango e Ferrero',
+        valor2: 83,
+        peso2: '430',
    
-        urlFoto: 'assets/ovos2024/trio3.jpeg',
-        recheio: ['Beijinho, Brigadeiro e Paçoca'],
+        urlFoto: 'assets/ovos-de-pascoa/triogrande.jpeg',
+        recheio: null,
       },
       
     ];
@@ -86,13 +92,15 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovoDeColher = [
       {
         id: 2,
-        ativo: false,
+        ativo: true,
         titulo: 'Ovo de Colher',
         descricao: 'Queridinhos',
-        valor: 80,
-        peso: '400',
-        valor2: 90,
-        peso2: '600',
+        valor: 44,
+        peso: '230',
+        valor2: 85,
+        peso2: '390',
+        valor3: 95,
+        peso3: '520',
         urlFoto: 'assets/ovos2024/ovoColherQueridinho.jpeg',
         recheio: [
           'Ninho, Nutella e Morangos',
@@ -102,28 +110,17 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 5,
-        ativo: false,
+        ativo: true,
         titulo: 'Ovo de Colher Especial',
         descricao: 'Nutellaço',
-        valor: 90,
-        peso: '400',
-        valor2: 100,
-        peso2: '600',
+        valor: 95,
+        peso: '380',
+        valor2: 105,
+        peso2: '520',
         urlFoto: 'assets/ovos2024/ovoNutellaco.jpeg',
         recheio: null,
       },
-      {
-        id: 6,
-        ativo: false,
-        titulo: 'Ovo de Colher Especial',
-        descricao: 'Kidivertido',
-        valor: 90,
-        peso: '400',
-        valor2: 100,
-        peso2: '600',
-        urlFoto: 'assets/ovos2024/ovoKidivertido.jpeg',
-        recheio: null,
-      },
+     
       
     ];
 
@@ -133,38 +130,56 @@ export class CardapioPascoaComponent implements OnInit {
         ativo: true,
         titulo: 'Ovo Fechado e Trufado',
         descricao: 'Sabores Tradicionais',
-        valor: 60,
-        peso: '480',
-
+        valor: 75,
+        peso: '400',
+        valor2: 85,
+        peso2: '500',
         urlFoto: 'assets/ovos2024/ovosFechados.jpeg',
         recheio: ['Cocadinha', 'Brigadeiro', 'Paçoca', 'Maracujá', 'Casadinho'],
       },
 
       {
-        id: 3,
-        ativo: false,
+        id: 2,
+        ativo: true,
         titulo: 'Ovo Fechado e Trufado',
         descricao: 'Sabores Especiais',
-        valor: 68,
-        peso: '480',
-
+        valor: 80,
+        peso: '400',
+        valor2: 95,
+        peso2: '500',
         urlFoto: 'assets/ovos2024/ovoFechado.jpeg',
-        recheio: ['Ninho com Nutella'],
+        recheio: ['Ninho com Nutella', 'Pistache'],
+      },
+      {
+        id: 3,
+        ativo: true,
+        titulo: 'Ovo Trufado Fini',
+        descricao: null,
+        valor: 75,
+        peso: '400',
+        valor2: 85,
+        peso2: '500',
+        urlFoto: 'assets/ovos2024/fini.jpeg',
+        recheio: ['Beijos', 'Dentadura'],
       },
     ];
 
-    this.ovosInfantis = [
-      {
-        id: 1,
-        ativo: true,
-        titulo: 'Ovo Fini Dentaduras ou Ovo Fini Beijos',
-        descricao: '',
-        valor: 66,
-        peso: '480',
+    this.ovosInfantis = [{
 
-        urlFoto: 'assets/ovos2024/infantilFini.jpeg',
-        recheio: null,
-      },
+      id: 3,
+      ativo: true,
+      titulo: 'Ovos Tradicionais com Surpresa e Guloseimas',
+      descricao: '',
+      valor: 34,
+      peso: '180',        valor2: 27,
+      peso2: '120',        valor3: 15,
+      peso3: '80',        valor4: 8,
+      peso4: '40',        valor5: 6,
+      peso5: '35',
+      urlFoto: 'assets/ovos2024/combinadoBrinde.jpeg',
+      recheio: null,
+    },
+    
       {
         id: 1,
         ativo: true,
@@ -175,52 +190,19 @@ export class CardapioPascoaComponent implements OnInit {
         urlFoto: 'assets/ovos2024/infantilCopo.jpeg',
         recheio: null,
       },
-      {
-        id: 2,
-        ativo: true,
-        titulo: 'Ovo com Garrafa Personalizado',
-        descricao: '',
-        valor: 38,
-        peso: '180',
-        urlFoto: 'assets/ovos2024/infantilGarrafa.jpeg',
-        recheio: null,
-      },
-
-      {
-        id: 3,
-        ativo: true,
-        titulo: 'Combinado Brinde Surpresa e Guloseimas',
-        descricao: '',
-        valor: 32,
-        peso: '180',        valor2: 25,
-        peso2: '120',        valor3: 13,
-        peso3: '80',        valor4: 7,
-        peso4: '40',        valor5: 5,
-        peso5: '35',
-        urlFoto: 'assets/ovos2024/combinadoBrinde.jpeg',
-        recheio: null,
-      },
+        
  
       {
         id: 4,
         ativo: true,
-        titulo: 'Kit Confeiteiro 1',
+        titulo: 'Kit Confeiteiro',
         descricao: '',
-        valor: 45,
+        valor: 48,
         peso: null,
         urlFoto: 'assets/ovos2024/confeiteiro1.jpeg',
         recheio: null,
       },
-      {
-        id: 4,
-        ativo: true,
-        titulo: 'Kit Confeiteiro 2',
-        descricao: '',
-        valor: 50,
-        peso: null,
-        urlFoto: 'assets/ovos2024/confeiteiro2.jpeg',
-        recheio: null,
-      },
+    
     ];
     this.listaLembrancinhas = [
       'assets/ovos2024/lembrancinhas.jpeg',
