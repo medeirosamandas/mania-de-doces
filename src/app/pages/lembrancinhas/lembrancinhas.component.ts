@@ -58,7 +58,7 @@ export class LembrancinhasComponent implements OnInit {
 
       {
         id: 4,
-        ativo: true,
+        ativo: false,
         titulo: 'Mini ovo',
         descricao: null,
         valor: 3.5,
