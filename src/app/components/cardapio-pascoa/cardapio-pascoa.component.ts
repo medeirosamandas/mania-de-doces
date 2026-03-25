@@ -74,7 +74,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.trioDeOvos = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Trio de Ovos',
         descricao: 'Sabores Tradicionais - Cocadinha, Brigadeiro e Paçoca',
         valor: 75,
