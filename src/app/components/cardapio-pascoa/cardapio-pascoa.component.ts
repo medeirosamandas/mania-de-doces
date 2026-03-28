@@ -23,12 +23,9 @@ export class CardapioPascoaComponent implements OnInit {
         id: 1,
         ativo: true,
         titulo: 'Mini Ovos',
-        descricao: '1 Unidade',
-        valor: 12,
-        peso: '65',
-        descricao2: '2 Unidades',
-        valor2: 22,
-        peso2: '130',
+        descricao: '2 Unidades',
+        valor: 22,
+        peso: '130',
  
         urlFoto: 'assets/ovos2024/mini2.jpeg',
         recheio: [
@@ -123,7 +120,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovoFechado = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Fechado e Trufado',
         descricao: 'Sabores Tradicionais',
         valor: 75,
@@ -136,7 +133,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Fechado e Trufado',
         descricao: 'Sabores Especiais',
         valor: 80,
@@ -148,7 +145,7 @@ export class CardapioPascoaComponent implements OnInit {
       },
       {
         id: 3,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Trufado Fini',
         descricao: null,
         valor: 75,
@@ -163,7 +160,7 @@ export class CardapioPascoaComponent implements OnInit {
     this.ovosInfantis = [{
 
       id: 3,
-      ativo: true,
+      ativo: false,
       titulo: 'Ovos Tradicionais com Surpresa e Guloseimas',
       descricao: '',
       valor: 34,
@@ -178,7 +175,7 @@ export class CardapioPascoaComponent implements OnInit {
     
       {
         id: 1,
-        ativo: true ,
+        ativo: false ,
         titulo: 'Ovo com Copo Personalizado',
         descricao: '',
         valor: 40,
@@ -190,7 +187,7 @@ export class CardapioPascoaComponent implements OnInit {
  
       {
         id: 4,
-        ativo: true,
+        ativo: false,
         titulo: 'Kit Confeiteiro',
         descricao: '',
         valor: 48,
