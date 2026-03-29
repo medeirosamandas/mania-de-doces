@@ -50,7 +50,7 @@ export class CardapioPascoaComponent implements OnInit {
       
       {
         id: 3,
-        ativo: true,
+        ativo: false,
         titulo: 'Quarteto de Mini Ovos',
         descricao: '4 Unidades',
         valor: 40,
