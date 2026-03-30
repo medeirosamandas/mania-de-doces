@@ -21,7 +21,7 @@ export class CardapioPascoaComponent implements OnInit {
     
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Mini Ovos',
         descricao: '2 Unidades',
         valor: 22,
@@ -35,7 +35,7 @@ export class CardapioPascoaComponent implements OnInit {
 
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Duo de Ovos',
         descricao: '2 Unidades',
         valor: 32,

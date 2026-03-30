@@ -15,7 +15,7 @@ export class LembrancinhasComponent implements OnInit {
     this.listaLembrancinhas = [
       {
         id: 1,
-        ativo: true,
+        ativo: false,
         titulo: 'Brigadeiro Decorado',
         descricao: null,
         valor: 2.5  ,
@@ -29,7 +29,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 2,
-        ativo: true,
+        ativo: false,
         titulo: 'Bombons',
         descricao: null,
         valor: 3,
@@ -43,7 +43,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 3,
-        ativo: true,
+        ativo: false,
         titulo: 'Tabletinho de chocolate',
         descricao: null,
         valor: 3,
@@ -72,7 +72,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 5,
-        ativo: true,
+        ativo: false,
         titulo: 'Cenourito',
         descricao: 'Casquinha de chocolate com brigadeiro e bolo de cenoura',
         valor: 3,
@@ -86,7 +86,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 6,
-        ativo: true,
+        ativo: false,
         titulo: 'Coelho de Chocolate',
         descricao: null,
         valor: 7,
@@ -100,7 +100,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 7,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Frito 1',
         descricao: null,
         valor: 7,
@@ -114,7 +114,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 8,
-        ativo: true,
+        ativo: false,
         titulo: 'Ovo Frito 2',
         descricao: null,
         valor: 10,
@@ -128,7 +128,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 9,
-        ativo: true,
+        ativo: false,
         titulo: 'Controle recheado com Ninho e Nutella',
         descricao: null,
         valor: 12,
@@ -142,7 +142,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 10,
-        ativo: true,
+        ativo: false,
         titulo: 'Dois mini ovos recheados',
         descricao: null,
         descricao2: null,
@@ -157,7 +157,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 11,
-        ativo: true,
+        ativo: false,
         titulo: 'Trio de Mini Ovos Recheados e Sortidos',
         descricao: null,
         descricao2: null,
@@ -172,7 +172,7 @@ export class LembrancinhasComponent implements OnInit {
       },
       {
         id: 12,
-        ativo: true,
+        ativo: false,
         titulo: 'Tablete de chocolate recheado',
         descricao: null,
         descricao2: null,
